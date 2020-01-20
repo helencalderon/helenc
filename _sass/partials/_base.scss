@@ -1,0 +1,272 @@
+
+$base-font-family: 'Open Sans', Arial, sans-serif;
+$header-font: 'Work Sans', Futura, Tahoma, sans-serif;
+
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.875;
+$white: #FFFFFF;
+$grey: #35322F;
+$red: #880e27;
+$green: #2c5e2c;
+$turk: #2c5e5e;
+$brown: #35322F;
+$burg: #5e2c2c;
+
+
+$text-color: #1d1d1d;
+
+
+@function em($px, $base: $base-font-size) {
+    @return $px / $base * 1em;
+}
+
+$spacing-unit: 36px;
+
+// Widths 
+$main: 1280px;
+$post: 714px;
+$tiny-mobile: 320px;
+$mobile: 479px;
+$tablet: 768px;
+$grid: 275px; //4 grids 
+$gutter: $spacing-unit;
+$border: 9px;
+
+@mixin font-size($element-size) {
+
+    @if $element-size=="h1" {
+        font-size: em(43px);
+    }
+    @if $element-size=="h2" {
+        font-size: em(34px)
+    }
+    @if $element-size=="h3" {
+        font-size: em(27px)
+    }
+    @if $element-size=="h4" {
+        font-size: em(21px)
+    }
+    @if $element-size=="p" {
+        font-size: em(21px)
+    }
+    @if $element-size=="h5" {
+        font-size: em(17px)
+    }
+}
+
+
+
+@mixin border($side, $color: $turk) {
+    @if $side=="tb" {
+        border-top: $border solid $color;
+        border-bottom: $border solid $color
+    }
+    @if $side=="all" {
+        border: $border solid $color;
+    }
+    @if $side == "link" {
+        border: ($border/10) solid $color;
+    }
+}
+
+
+
+body {
+    font-family: $base-font-family;
+    font-size: em($base-font-size);
+    font-weight: 300;
+    color: $text-color;
+    background-color: $brown;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+img
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+
+/**
+ * Headings
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: $header-font;
+}
+
+
+h1 {
+    font-size: em(43px);
+    line-height: 68px;
+}
+
+h2 {
+    font-size: em(34px);
+    line-height: 55px;
+}
+
+h3 {
+    font-size: em(27px);
+    line-height: 44px;
+}
+
+h4, p, ul {
+    font-size: em(21px);
+    line-height: 36px;
+}
+
+h5 {
+    font-size: em(17px);
+    line-height: 30px;
+}
+
+
+/**
+ * Links
+ */
+
+a {
+    color: $text-color;
+    text-decoration: underline;
+    &:hover {
+        color: $red;
+        text-decoration: none;
+        border-bottom: 3px $red;
+    }
+}
+
+
+/**
+ * Lists
+ */
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: $gutter;
+}
+
+
+
+
+/**
+ * Links
+ */
+
+a {
+    color: $text-color;
+    text-decoration: underline;
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+        @include border(link); 
+    }
+}
+
+
+
+
+/**
+ * Blockquotes
+ */
+
+blockquote {
+    color: $text-color;
+    border-left: 4px solid $text-color;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.wrapper {
+    max-width: $main;
+    @extend %clearfix;
+    position: relative;
+    margin: 0 auto;
+    background-color: $white;
+   // @include container(show overlay);
+}
+
+/**
+ * Clearfix
+ */
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    grid-column-gap: fluid(18px);
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+%card {
+    padding: $spacing-unit;
+    margin: $spacing-unit/2 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+    flex-grow: 0;
+    p:first-child {
+        @include font-size(h3);
+    }
+    @media only screen and (min-width: 340px) and (max-width: $mobile) {
+        min-height: 230px;
+    }
+}
+
+

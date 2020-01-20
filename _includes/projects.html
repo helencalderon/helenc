@@ -1,0 +1,9 @@
+<section class ="projects"> 
+<h1>some of my work</h1>
+{% for post in site.posts %}
+<div class="cards">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</div>
+{% endfor %}
+</section>
+

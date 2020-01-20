@@ -1,0 +1,19 @@
+.post{
+    max-width: $post;
+    margin: $spacing-unit 0;
+    margin-left: $gutter + $grid;
+    @media only screen and (max-width: $post) {
+        margin: $spacing-unit;
+    }
+    img {
+    	max-width: $main - ($gutter*2) - ($border*2);
+    	margin-left: $grid * -1;
+    	@include border(all);
+
+    }
+}
+
+.list{
+	margin-bottom: 0;
+}
+

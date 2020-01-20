@@ -1,0 +1,41 @@
+
+ //* Site footer
+ 
+
+#footer {
+    display: block;
+    justify-content: space-between;
+    background-color: $green;
+    padding: $spacing-unit;
+    font-size: $small-font-size;
+    color: $white; 
+    a {
+        text-decoration: none;  
+        color: $white; 
+        &:hover {
+            border-bottom-color: $white
+        }
+    }
+    ul{
+        list-style: none;
+    }
+    li {
+        padding-bottom: $spacing-unit;
+        display: inline;
+    }
+    li a:hover {
+        border: none;
+        color: $burg;
+
+    }
+    p {
+        margin-bottom: 0;
+        @media only screen and (max-width: $tablet) {
+            flex-basis: 50%;
+        }
+    }
+}
+
+.fa {
+
+}

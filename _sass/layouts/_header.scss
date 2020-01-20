@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Helen's custom styles
+   ========================================================================== */
+
+/**
+ * Site header
+ */
+
+#site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    padding: $spacing-unit $spacing-unit $spacing-unit $spacing-unit;
+    background-color: $green;
+    a {
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+        &:hover{
+            text-decoration: none;
+            border: none;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            border: none;
+        }
+        &:hover:after{
+            @include border(link, $white);
+            width: 98%;
+            transition: .75s ease;
+
+        }
+    } 
+}
+

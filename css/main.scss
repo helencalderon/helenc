@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+
+
+
+//Partials
+
+@import "partials/reset";
+@import "partials/boilerplate";
+@import "partials/base";
+@import "partials/typography";
+
+//Layouts
+
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/post";
+
+
+//Modules
+
+
+
+//Vendors
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+
+
+.user {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-user);
+  }
+}
+
+.twitter {
+  @extend %fa-icon;
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-twitter);
+  }
+}

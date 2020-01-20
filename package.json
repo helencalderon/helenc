@@ -1,0 +1,20 @@
+{
+  "name": "helen-calderon",
+  "version": "0.0.1",
+  "description": "\"Helen Calderon's UX research portolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Helen",
+    "Calderon"
+  ],
+  "author": "Helen Calderon",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "grunt": "^1.0.2",
+    "live-reload": "^1.1.0"
+  }
+}

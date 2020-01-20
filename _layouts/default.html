@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+{% include head.html %}
+
+<body>
+    {% include google.html %}
+    {% include scripts-production-top.html %}
+    <div class="wrapper">
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
+    {% include scripts-production-bottom.html %}
+</body>
+
+</html>

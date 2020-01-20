@@ -1,0 +1,41 @@
+---
+---
+
+             ///
+            (o o)
+--------o00--( )--00o--------------------
+
+
+/* AUTHOR */
+
+Built by: Helen Calderon
+Twitter: @helen26
+Website: www.helencalderon.co.uk
+Location: Hemel Hempstead, UK
+
+
+/* SITE */
+
+Last updated: {{site.time | date: "%F"}}
+
+/* BUILT WITH */
+
+Jekyll including Liquid, YAML, and Sass
+Website: http://jekyllrb.com/
+
+
+
+/* TOOLS */ 
+
+
+Favicon generator
+https://realfavicongenerator.net/
+
+HTML Boilerplate
+Website: https://html5boilerplate.com/
+
+Sumblime Text 3
+Website: http://www.sublimetext.com/3
+
+Dan's CSS Fontstack
+https://www.cssfontstack.com/

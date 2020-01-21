@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 description: forthcoming
 title: UX for start-ups
 permalink: /ux-for-start-ups/

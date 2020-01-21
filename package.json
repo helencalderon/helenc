@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "grunt": "^1.0.2",
-    "live-reload": "^1.1.0"
+    "grunt": "^1.0.2"
   }
 }

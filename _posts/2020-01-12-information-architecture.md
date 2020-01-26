@@ -1,11 +1,18 @@
 ---
 layout: post
-description: forthcoming
-title: Information achitecture redesign 
+company: City, University of London
+project: Information achitecture redesign 
+description: Overhaul of the information architecture of a univeristy website
+skills: User interviews, card sorts, tree tests, stakeholder management
+year: 2019
 permalink: /information-architecture-redesign-at-city-university-of-london/
+
 ---
 
-# Information architecture redesign City, Univerisity of London #
+# Information architecture redesign #  
+## City, Univerisity of London ## 
+
+:worried:
 
 ## Challenge ## 
 City's website was starting to look dated. With no editorial oversight and x CMS editors, it had grown to a staggering 20,000 pages. This was hampering its ability to meet key performance goals such as increasing student recruitment and showcasing its world-leading research. 

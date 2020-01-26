@@ -1,8 +1,14 @@
 <section class ="projects"> 
 <h1>some of my work</h1>
 {% for post in site.posts %}
-<div class="cards">
+<div class="card">
+	<p>{{ post.year }}</p>
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <!-- insert img -->
+    <p>{{ post.company }}</p>
+    <p>{{ post.title }}</p>
+    <p>{{ post.project }}</p>
+    <p>{{ post.description }}</p>
 </div>
 {% endfor %}
 </section>

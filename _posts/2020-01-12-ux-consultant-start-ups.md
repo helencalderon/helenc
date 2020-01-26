@@ -1,8 +1,13 @@
 ---
 layout: post
-description: forthcoming
-title: UX for start-ups
-permalink: /ux-for-start-ups/
+title: Expert review of a B2B SaaS platform
+company: Available on request 
+project: Try and review a workflow automation tool, not yet at MVP
+description: Some description not yet thought of
+skills: Expert review, wireframing
+year: 2018
+permalink: /expert-review-of-software/
+img:
 ---
 
-Delivering UX for start-ups in London
+Yeah expert review 

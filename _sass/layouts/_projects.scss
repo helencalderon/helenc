@@ -1,0 +1,23 @@
+%card {
+    padding: $spacing-unit;
+    margin: $spacing-unit/2 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+    flex-grow: 0;
+    p:first-child {
+        @include font-size(h3);
+    }
+    @media only screen and (min-width: 340px) and (max-width: $mobile) {
+        min-height: 230px;
+    }
+}
+
+
+.card  {
+    background-color: $red;
+    display: grid;  
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: $spacing-unit;
+    grid-template-rows: minmax(40px, auto) minmax(40px, auto) minmax(20px, 120.75px);
+    border: 10px solid black;
+}

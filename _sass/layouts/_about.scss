@@ -1,0 +1,24 @@
+.about {
+    padding: $spacing-unit;
+    background-color: #b4d2f775;
+    @media only screen and (max-width: $tablet) {
+    padding: $mobile-s-u;
+        .img-wrapper {
+        flex-basis: 45%;
+        }
+    }
+    @media only screen and (max-width: $mobile) {
+        .img-wrapper {
+        flex-basis: 25%;
+        }
+    }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.blurb {
+  flex-basis: 59%;
+}
+
+

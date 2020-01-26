@@ -9,7 +9,9 @@
     	max-width: $main - ($gutter*2) - ($border*2);
     	margin-left: $grid * -1;
     	@include border(all);
-
+        &.emoji {
+           border: none;
+        }
     }
 }
 

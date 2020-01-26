@@ -1,6 +1,6 @@
 
 $base-font-family: 'Open Sans', Arial, sans-serif;
-$header-font: 'Work Sans', Futura, Tahoma, sans-serif;
+$header-font: 'Raleway', Futura, Tahoma, sans-serif;
 
 $base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
@@ -21,6 +21,7 @@ $text-color: #1d1d1d;
 }
 
 $spacing-unit: 36px;
+$mobile-s-u: $spacing-unit/4;
 
 // Widths 
 $main: 1280px;
@@ -118,6 +119,7 @@ h3,
 h4,
 h5{
     font-family: $header-font;
+    text-transform: uppercase;
 }
 
 
@@ -144,6 +146,46 @@ h4, p, ul {
 h5 {
     font-size: em(17px);
     line-height: 30px;
+}
+
+
+
+@media only screen and (max-width: $mobile) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    ul,
+    ol,
+    dl,
+    figure,
+    %vertical-rhythm {
+        margin-bottom: $mobile-s-u;
+    }
+    h1 {
+        font-size: em(29px);
+        line-height: 46px;
+    }
+
+    h2 {
+        font-size: em(23px);
+        line-height: 37px;
+    }
+
+    h3 {
+        font-size: em(18px);
+        line-height: 30px;
+    }
+
+    h4,p {
+        font-size: em(14px);
+        line-height: 24px;
+    }
 }
 
 
@@ -236,6 +278,8 @@ img {
     vertical-align: middle;
 }
 
+
+
 %clearfix {
     &:after {
         content: "";
@@ -267,6 +311,11 @@ img {
     @media only screen and (min-width: 340px) and (max-width: $mobile) {
         min-height: 230px;
     }
+}
+
+
+.emoji{
+    padding-bottom: 6px;
 }
 
 

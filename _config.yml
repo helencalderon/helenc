@@ -21,7 +21,7 @@
 title: Helen Calderon | User researcher
 email: helencalderon+portfolio@gmail.com
 description: Helen is a user reseacher based near London. She has 10+ years of experience improving digital products, most recently as Information Architect at City, University of London.
-baseurl: "/helenc" 
+baseurl: "/helenc" # the subpath of your site, e.g. /blog
 url: "http://www.helencalderon.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: helen26
 github_username:  helencalderon
@@ -31,6 +31,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -18,7 +18,7 @@ A public-body, information-rich website with diverse users from around the world
 
 ## My role ##
 
-I worked within an agile team as the sole information architect. I was responsible producing a new information architecture backed up by user research and with the buy-in of internal stakeholders with competing interests.
+I worked within an agile team as the sole information architect. I was responsible producing a new information architecture backed up by user research and with obtaining the buy-in of internal stakeholders with competing interests.
 
 ## Approach ##
 

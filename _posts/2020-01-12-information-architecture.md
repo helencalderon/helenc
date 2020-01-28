@@ -15,15 +15,15 @@ City, University of London
 
 ## Challenge ## 
 
-A public institution, with a global audience, and 350,000+ users per month, City's website needed to answer users' questions, help them make decisions and help the university attract students and promote its research. Re-developed over 10 years ago, with hundreds of CMS users and limited oversight it had grown to 20,000 pages, with a confusing a patchy structure. Users couldn't find answers to their questions and the university struggled to meets its business goals via the website. 
+A public institution, with a global audience of 350,000+ users per month, City's website had last been re-developed over 10 years ago. With hundreds of CMS users and limited oversight it had grown to 20,000 pages. The site needed to answer users' questions, and help them make decisions but, with thousands of disparate pages and a lack of structure, different users couldn't find the information they sought. The website couldn't fully support the university's business imperatives of attracting new students and promoting its research. 
 
 ## My role ##
 
-I worked within an agile team as the sole information architect. I was responsible producing a new information architecture, backed up by user research I planned and conducted. I communicated the research and proposed architecture, getting buy-in from competing and diverse internal stakeholders.
+I worked within an agile team as the sole information architect. I designed and conducted a programme of user research in order to provide the university with a new and proven information architecture. Throughout the process I communicated my work and proposed architecture, getting buy-in from competing internal stakeholders.
 
 ## Approach ##
 
-### Content audit ###
+### Content audit and stakeholder interviews###
 
 To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, website analytics and third party SEO and market research. 
 
@@ -36,17 +36,21 @@ I discovered:
 * Most website sections did not appear in the site's primary navigation, meaning users could only find them via search 
 * The most popular pages were those used by students and staff, neither of whom were the site’s intended audiences.
 
+Alongside this I also met with stakeholders to understand their content, hear their perspective on users and their tasks, and to consider what they wanted to achieve via the website.
+
 ### User research ###
 
 #### Card sorts and interviews ####
 
-Following the content audit I was ready to start speaking to users. First, I conducted open card sort exercises and interviews with user groups including prospective students, researchers and lecturers and business people. 
+Following the content audit and stakeholder interviews I was ready to start speaking to users. First, I conducted open card sort exercises and interviews with user groups including prospective students, researchers and lecturers and business people. 
 
 I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised. Alongside card sorts, user interviews gave me insight into their online activities and information needs. [screenshot - card sort]  [screen shot - script?]
 
 I was restricted to 80 cards for moderated studies, so I used online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
-I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. [screenshot] 
+I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
+
+![Personas](../img/personas.png)
 
 #### Tree testing and interviews ####
 
@@ -62,11 +66,9 @@ I regularly communicated the information architecture to internal stakeholders t
 
 ### Outcome ###
 
-After a year of user research, City has a new information architecture for its forthcoming website. This proven structure is backed with findings from over 25 studies and 900 participants, and regular consultation with internal stakeholders. 
+After a year of user research, City has a new information architecture for its forthcoming website. This proven structure is backed by findings from over 25 studies and 900 participants. Users will be able to find the information they seek and carry out the tasks that also support university's goals. Regular consultation with internal stakeholders means there is buy-in across different departments and levels of the university.
 
-Users will be able to find the information they seek. They will be able to carry out the tasks that also support university's goals. There is buy-in from internal stakeholders.
-
-While well evidenced, the new structure will be tested and refined further during user testing on the website prototypes, prior to launch. 
+While well evidenced, the new structure will be tested and refined further as the university tests the navigation during planned user testing at prototype stage. The refined architecture will be launched within a new site late 2020.
 
 
  [Final IA]

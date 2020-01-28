@@ -52,7 +52,7 @@ I was restricted to 80 cards for moderated studies, so I used online studies to 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
 <figure>
-<img src="../img/personas2.PNG" alt="Personas" >
+<img src="../img/personas3.PNG" alt="Personas" >
   <figcaption> I used the personas to help me imagine how different users would look for information across the site.</figcaption>
   </figure>
                                               

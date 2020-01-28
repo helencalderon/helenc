@@ -11,7 +11,7 @@ permalink: /information-architecture-redesign/
 
 # Information architecture redesign #  
 
-Client: {{ post.company }}
+<p>Client: {{ post.company }} </p>
 
 
 ## Challenge ## 
@@ -51,8 +51,9 @@ I was restricted to 80 cards for moderated studies, so I used online studies to 
 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
-![Personas](../img/personas.PNG)
-
+<figure>
+![Personas](../img/personas2.PNG)
+  <figcaption> I used the personas to help me imagine how different users would look for information across the site.</figcaption>
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Most of these studies were conducted online, using participants whose profiles matched different user groups, recruited via Usertesting.com.

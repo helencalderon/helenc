@@ -43,19 +43,30 @@ Alongside this I also met with stakeholders to understand their content, hear th
 
 #### Card sorts and interviews ####
 
-Following the content audit and stakeholder interviews I was ready to start speaking to users. First, I conducted open card sort exercises and interviews with user groups including prospective students, researchers and lecturers and business people. 
+Following the content audit and stakeholder interviews I was ready to start speaking to users. First, I conducted open card sort exercises and interviews with user groups including prospective students, researchers and lecturers and business people.
 
-I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised. Alongside card sorts, user interviews gave me insight into their online activities and information needs. [screenshot - card sort]  [screen shot - script?]
+![Test script showing open card sort task](../img/open-card-script.PNG)
+
+I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
+
+![Cards sorted](../img/cards.PNG)
+
+Alongside card sorts, user interviews gave me insight into their online activities and information needs. 
+
 
 I was restricted to 80 cards for moderated studies, so I used online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
+<!--
 <figure>
 <img src="../img/personas3.PNG" alt="Personas" >
   <figcaption> I used the personas to help me imagine how different users would look for information across the site.</figcaption>
   </figure>
-                                              
+   -->   
+   
+![Personas](../img/personas3.PNG)
+
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Most of these studies were conducted online, using participants whose profiles matched different user groups, recruited via Usertesting.com.

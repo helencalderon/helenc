@@ -11,7 +11,7 @@ permalink: /information-architecture-redesign/
 
 # Information architecture redesign #  
 
-<p>Client: {{ post.company }} </p>
+Client: City, University of London
 
 
 ## Challenge ## 
@@ -54,6 +54,7 @@ I reviewed interview data, using sticky notes and affinity diagrams to find comm
 <figure>
 ![Personas](../img/personas2.PNG)
   <figcaption> I used the personas to help me imagine how different users would look for information across the site.</figcaption>
+  </figure>
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Most of these studies were conducted online, using participants whose profiles matched different user groups, recruited via Usertesting.com.

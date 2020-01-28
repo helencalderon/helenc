@@ -10,12 +10,13 @@ permalink: /information-architecture-redesign/
 ---
 
 # Information architecture redesign #  
-City, University of London
+
+Client: {{ post.company }}
 
 
 ## Challenge ## 
 
-A public institution, with a global audience of 350,000+ users per month, City's website had last been re-developed over 10 years ago. With hundreds of CMS users and limited oversight it had grown to 20,000 pages. The site needed to answer users' questions, and help them make decisions but, with thousands of disparate pages and a lack of structure, different users couldn't find the information they sought. The website couldn't fully support the university's business imperatives of attracting new students and promoting its research. 
+A public institution, with a global audience of 350,000+ users per month, City's website had last been re-developed over 10 years ago. With hundreds of CMS users and limited oversight it had grown to 20,000 pages. The site needed to answer users' questions, and help them make decisions but, with thousands of disparate pages and a lack of structure, different users couldn't find the information they sought. The website was incapable of fully supporting the university's business goals, such as attracting new students and promoting its research. 
 
 ## My role ##
 
@@ -23,7 +24,7 @@ I worked within an agile team as the sole information architect. I designed and 
 
 ## Approach ##
 
-### Content audit and stakeholder interviews###
+### Content audit and stakeholder interviews ###
 
 To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, website analytics and third party SEO and market research. 
 
@@ -71,7 +72,6 @@ After a year of user research, City has a new information architecture for its f
 While well evidenced, the new structure will be tested and refined further as the university tests the navigation during planned user testing at prototype stage. The refined architecture will be launched within a new site late 2020.
 
 
- [Final IA]
-
+![Personas](../img/personas.PNG)
 
 

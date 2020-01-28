@@ -50,7 +50,7 @@ I was restricted to 80 cards for moderated studies, so I used online studies to 
 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
-![Personas](../img/personas.png)
+![Personas](../img/personas.PNG)
 
 #### Tree testing and interviews ####
 

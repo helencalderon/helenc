@@ -2,10 +2,10 @@
 layout: post
 company: City, University of London
 project: Information achitecture redesign 
-description: Overhaul of the information architecture of a univeristy website
+description: Designing a new information architecture for a public-body website with lots of information and disparate users 
 skills: User interviews, card sorts, tree tests, stakeholder management
 year: 2019
-permalink: /information-architecture-redesign-at-city-university-of-london/
+permalink: /information-architecture-redesign/
 
 ---
 
@@ -14,11 +14,12 @@ City, University of London
 
 
 ## Challenge ## 
-A public-body, information-rich website with diverse users from around the world, City's website attracted over 350,000 users per month. Last re-developed over 10 years ago, the university's website was starting to look dated. With limited oversight and 400+ CMS users, it had grown to 20,000 pages. Users came to the site looking for information to help them get things done. With a disorganised site structure they couldn't find what they were looking for :scream_cat:. The situation also didn't help the university meets its goals. 
+
+A public institution, with a global audience, and 350,000+ users per month, City's website needed to answer users' questions, help them make decisions and help the university attract students and promote its research. Re-developed over 10 years ago, with hundreds of CMS users and limited oversight it had grown to 20,000 pages, with a confusing a patchy structure. Users couldn't find answers to their questions and the university struggled to meets its business goals via the website. 
 
 ## My role ##
 
-I worked within an agile team as the sole information architect. I was responsible producing a new information architecture backed up by user research and with obtaining the buy-in of internal stakeholders with competing interests.
+I worked within an agile team as the sole information architect. I was responsible producing a new information architecture, backed up by user research I planned and conducted. I communicated the research and proposed architecture, getting buy-in from competing and diverse internal stakeholders.
 
 ## Approach ##
 

@@ -28,7 +28,7 @@ I worked within an agile team as the sole information architect. I designed and 
 
 To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, website analytics and third party SEO and market research. 
 
-![Audit of sections not within primary navigation](../img/content-audit.png)
+![Audit of sections not within primary navigation](../img/content-audit2.PNG)
 
 I discovered:
 {: .list}
@@ -52,9 +52,10 @@ I was restricted to 80 cards for moderated studies, so I used online studies to 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
 <figure>
-![Personas](../img/personas2.PNG)
+<img src="../img/personas2.PNG" alt=Personas" >
   <figcaption> I used the personas to help me imagine how different users would look for information across the site.</figcaption>
   </figure>
+                                              
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Most of these studies were conducted online, using participants whose profiles matched different user groups, recruited via Usertesting.com.

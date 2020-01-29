@@ -11,6 +11,7 @@ $green: #2c5e2c;
 $turk: #2c5e5e;
 $brown: #35322F;
 $burg: #5e2c2c;
+$blue: #b4d2f775;
 
 
 $text-color: #1d1d1d;
@@ -32,6 +33,10 @@ $tablet: 768px;
 $grid: 275px; //4 grids 
 $gutter: $spacing-unit;
 $border: 9px;
+
+b{
+    font-weight: 700;
+}
 
 @mixin font-size($element-size) {
 
@@ -57,7 +62,7 @@ $border: 9px;
 
 
 
-@mixin border($side, $color: $turk) {
+@mixin border($side, $color: $blue) {
     @if $side=="tb" {
         border-top: $border solid $color;
         border-bottom: $border solid $color

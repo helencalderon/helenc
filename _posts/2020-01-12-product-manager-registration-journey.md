@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Registration journey redesign
 company: MGP 
 project: Registration process re-design
-description: Overhaul of a registration process for a healthcare publisher
+description: Scoped, and project managed the builting of a new registration process for a healthcare publisher. Wrote and deployed all tracking functionality.
 skills: Product management, project management, analytics
 year: 2016
-img:
+img: /mgp-thumb.png
 permalink: /registration-journey-redesign/
 ---
 

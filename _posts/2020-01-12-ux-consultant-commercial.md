@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Testing a public transport ticket machine
-company: Available on request 
-project: User test a new ticket machine
-description: Lab testing of a ticket validator at prototype stage
+company: Cubic
+project: Evaluating a public transport digital ticket system
+description: User tested prototype ticketing machines for the New York Transit Authority. Designed and facilitated the study.
 skills: User testing
 year: 2018
 permalink: /user-testing-a-ticketing-machine/
-img:
+img: thumb-cubic.png
 ---
 
-Soemthing about the ticketing machine
+# Evaluating a digital ticket validator #

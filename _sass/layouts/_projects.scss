@@ -12,12 +12,33 @@
 }
 
 
-.card  {
-    background-color: $red;
-    display: grid;  
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-column-gap: $spacing-unit;
-    grid-template-rows: minmax(40px, auto) minmax(40px, auto) minmax(20px, 120.75px);
-    border: 10px solid black;
+.projects {
+    background-color: $blue;
+   // display: flex;
+    //flex-wrap: wrap;
+    //justify-content: center;
+    a {
+        text-decoration: none;
+    }
+    .card {
+        background-color: $white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        border: 1px solid black;
+        margin: $spacing-unit;
+        &:hover {
+            opacity: .65;
+        }
+        img{
+
+        }
+    }
+
+    .meta {
+        font-size: $small-font-size;
+    }
+    .blurb {
+        padding: $spacing-unit;
+    }
 }

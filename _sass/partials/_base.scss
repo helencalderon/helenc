@@ -11,7 +11,7 @@ $green: #2c5e2c;
 $turk: #2c5e5e;
 $brown: #35322F;
 $burg: #5e2c2c;
-$blue: #b4d2f775;
+$blue: #DCEAFB;
 
 
 $text-color: #1d1d1d;
@@ -82,7 +82,7 @@ body {
     font-size: em($base-font-size);
     font-weight: 300;
     color: $text-color;
-    background-color: $brown;
+    background-color: $blue;
     -webkit-text-size-adjust: 100%;
     width: 100%;
     overflow-x: hidden;

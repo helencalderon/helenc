@@ -9,8 +9,10 @@
     <ul class="projects">
         {% assign posts = site.posts | sort: "year" %}
         {% for post in posts reversed %}
+        {% if post.publish == no %}
         <li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </footer>

@@ -1,15 +1,20 @@
-<section class ="projects"> 
-<h1>some of my work</h1>
-{% assign posts = site.posts | sort: "year" %}
-{% for post in posts reversed %}
-<div class="card">
-	<p>{{ post.year }}</p>
-    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    <!-- insert img -->
-    <p>{{ post.company }}</p>
-    <p>{{ post.title }}</p>
-    <p>{{ post.project }}</p>
-    <p>{{ post.description }}</p>
-</div>
-{% endfor %}
+<section class="projects">
+    <h1>Some of my work</h1>
+    {% assign posts = site.posts | sort: "year" %}
+    {% for post in posts reversed %}
+    {% if post.publish == no %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+
+        <div class="card">
+            <img src="{{ site.baseurl }}/img/{{ post.img }}" alt="{{ post.project }}">
+            <div class="blurb">
+                <p class="meta" >{{ post.year }} | {{ post.skills }}</p>
+                <h3>{{ post.project }}</h3>
+                <h4>{{ post.company }}</h4>
+                <p>{{ post.description }}</p>
+            </div>
+        </div>
+    </a>
+    {% endif %}
+    {% endfor %}
 </section>

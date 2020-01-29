@@ -95,7 +95,7 @@ The architecture has been used to built the forthcoming website and this will no
 
 ![Finance section sitemap](../img/sitemap-finance.PNG)
 
-![Grown your business section sitemap](../img/sitemap-grow-business.PNG)
+![Grown your business section sitemap](../img/sitemap-business.png)
 
 ![Grown your business section sitemap](../img/sitemap-grow-business.PNG)
 

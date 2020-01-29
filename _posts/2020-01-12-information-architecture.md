@@ -55,7 +55,7 @@ Following the content audit and stakeholder interviews I conducted open card sor
 
 I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
 
-![Test script showing open card sort task](../img/open-card-script.png)
+![Test script showing open card sort task](../img/open-card-script.PNG)
 
 ![Cards sorted](../img/cards-2.png)
 
@@ -63,17 +63,17 @@ Alongside card sorts, user interviews gave me insight into their online activiti
 
 I was restricted to 80 cards for moderated studies, so I used online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
-![Unmoderated card sort](../img/online-card-sort.png)
+![Unmoderated card sort](../img/online-card-sort.PNG)
 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
-![Personas](../img/personas3.png)
+![Personas](../img/personas3.PNG)
 
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Many of these studies were conducted online, with participants recruited via Usertesting.com.
 
-![TreeJack study task results](../img/tree-2.png)
+![TreeJack study task results](../img/tree-2.PNG)
  
 I conducted tree tests iteratively. Using previous study results I tested different labels and structures until research showed participants could find key information. All together I conducted 20+ tree testing studies online, 20 in-person tests and guerilla tests.
 
@@ -91,12 +91,12 @@ The architecture has been used to built the forthcoming website and this will no
 
 ![Prospective students sitemap](../img/sitemap-p-s-2.png)
 
-![Visas section sitemap](../img/sitemap-visas.png)
+![Visas section sitemap](../img/sitemap-visas.PNG)
 
-![Finance section sitemap](../img/sitemap-finance.png)
+![Finance section sitemap](../img/sitemap-finance.PNG)
 
-![Grown your business section sitemap](../img/sitemap-grow-business.png)
+![Grown your business section sitemap](../img/sitemap-grow-business.PNG)
 
-![Grown your business section sitemap](../img/sitemap-grow-business.png)
+![Grown your business section sitemap](../img/sitemap-grow-business.PNG)
 
 

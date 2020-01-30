@@ -44,7 +44,7 @@ I put together a script that tested each of the validators with different combin
 
 We piloted the study in the client’s office and noticed we needed a definitive way of measuring time on task. In the lab we marked the floor with masking tape. Then after I give the participant the first task we started the timer. Once the participant  passed through the ticket barrier and walked into the taped zone, we stopped the timer.
 
-Within the usability lab we set up the 3 different validators – bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes, so participants’ initial impressions were captured while the cameras were recording. 
+Within the usability lab we set up the 3 different validators &ndash; bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes, so participants’ initial impressions were captured while the cameras were recording. 
 
 ![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png)
 
@@ -65,7 +65,7 @@ The main high-level recommendation following the study was:
    * Updating the static image to an animation that shows a hand holding a QR code ticket in the correct position in front of the device. 
    * Adding decals and labels to the device housing to direct users towards the scanner.
    
-My written report provided additional detailed findings and recommendations for the ticket barrier –its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, we also provided time on task for each participant.
+My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, we also provided time on task for each participant.
 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay while the mobile app and paper QR tickets remain in development.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 company: Cubic
-project: Evaluating a public transport digital ticket system
+project: User testing a ticket reader
 description: User tested prototype ticketing machines for the New York Transit Authority. Designed and facilitated the study.
 skills: User testing
 year: 2018

@@ -56,7 +56,7 @@ After finishing the testing I reviewed the session notes together with the stude
 
 Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. The placement and range of the scanner meant users needed to hover their ticket a few centimeters above the lower edge of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket in order to pass through the barriers. Many couldn’t do this within 2 seconds, especially on their first attempt.
 
-The main high-level recommendation following the study was:
+As the changes to the ticket reader display did not have the desired effect, I recommended the following: 
 {: .list}
 
 1.	If time permits, update the physical device. Recess and inset the scanner so users can successfully validate their ticket by placing it directly on the screen. The tactile feedback would provide users with certainty and confidence, and would make learning where to place the ticket easy. 
@@ -66,6 +66,8 @@ The main high-level recommendation following the study was:
    * Adding decals and labels to the device housing to direct users towards the scanner.
    
 My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, we also provided time on task for each participant.
+
+![Ticket reader report](../img/ticket-reader-report.png)
 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay while the mobile app and paper QR tickets remain in development.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 

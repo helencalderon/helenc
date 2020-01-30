@@ -47,6 +47,7 @@ Of all the different screens tested, participants were more likely to validate t
 
 The main high-level recommendation following the study was:
 {: .list}
+
 1.	If time permits, update the physical device. Recess and inset the scanner so users can successfully validate their ticket by placing it directly on the screen. The tactile feedback would provide users with certainty and confidence, and would make learning where to place the ticket easy. 
 2.	If time doesn’t allow,change the display so users are more likely to position their ticket within the scanner’s range. Possible changes to consider and test include:
    * Dividing the contactless and barcode sections of the screen with different background colours to prevent users from placing mobile and paper tickets directly on the display. 

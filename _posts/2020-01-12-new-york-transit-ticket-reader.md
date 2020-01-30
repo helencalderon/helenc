@@ -46,6 +46,8 @@ We piloted the study in the client’s office and noticed we needed a definitive
 
 Within the usability lab we set up the 3 different validators – bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes, so participants’ initial impressions were captured while the cameras were recording. 
 
+![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png)
+
 Participants successfully validated their ticket when the screen displayed a static QR code towards the bottom of the device, closest to the scanner. Using this finding, the client was able to test 2 new iterations of the QR-code display on the second day of testing.  
  
 ### Findings and recommendations ###
@@ -68,5 +70,6 @@ My written report provided additional detailed findings and recommendations for 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay while the mobile app and paper QR tickets remain in development.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 
 
+![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png)
 
 

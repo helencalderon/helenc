@@ -32,7 +32,7 @@ I worked as UX consultant within City’s Interaction Lab, a commercial UX consu
 
 The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
 
-![Ticket readers for bus and subway and an old machine](../img/ticket-readers.png)
+![Ticket readers, tickets and display variations](../img/test-variables.png)
 
 I put together a script that tested each of the validators with different combinations of tickets and displays. Because participants could learn the system and to reduce bias associated with the first and last ticket readers they tried, I varied the task order. I created a separate spreadsheet to use during testing so we keep track of type of machine, display and ticket for each task and session. [spreadsheet] A mix of commuter and visitor participants were recruited via an external agency.
 

@@ -43,6 +43,7 @@ Participants successfully validated their ticket when the screen displayed a sta
 ### Findings and recommendations ###
 
 After finishing the testing I reviewed the session notes together with the student consultant and agreed on the main findings. 
+
 Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. The placement and range of the scanner meant users needed to hover their ticket a few centimeters above the lower edge of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket in order to pass through the barriers. Many couldn’t do this within 2 seconds, especially on their first attempt.
 
 The main high-level recommendation following the study was:

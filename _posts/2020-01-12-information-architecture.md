@@ -18,12 +18,12 @@ Client: City, University of London
 
 ## Overview ## 
 
-A public institution, with a global audience of 350,000+ users per month, City's website had last been re-developed over 10 years ago. With hundreds of CMS users and limited oversight it had mushroomed to 20,000 pages. 
+City, University of London is a public institution, with a global audience of 350,000+ users per month. However, its main  website www.city.ac.uk had not been re-developed over 10 years. With hundreds of CMS users and limited oversight it had mushroomed to 20,000 pages with no clear architecture. 
 
 
 ## Challenge ##
 
-City's information-rich site needed to answer users' questions, and help them make decisions. With thousands of disparate pages and a lack of structure, users couldn't find the information they saught. The website fell short of supporting the university's key business goals, such as attracting new students and promoting its research. 
+City's information-rich site needed to answer users' questions, and help them make decisions. With thousands of disparate pages and a lack of structure, users couldn't find the information they sought. The website fell short of supporting the university's key business goals, such as attracting new students and promoting its research. 
 
 
 ## My role ##
@@ -84,7 +84,7 @@ I communicated my research and proposed structure through regular meetings with 
 
 ### Outcome ###
 
-After a year of user research, City has a new information architecture for its forthcoming website. This proven structure is backed by findings from over 25 studies with 900+ participants. Users will now be able to find the information they seek, aligning with key business goals like increasing student applications and promoting research. Regular consultation with colleagues at all levels of the organisation means stakeholders are on board.
+After a year of user research, City has a new agreed information architecture for its forthcoming website. This proven structure is backed by findings from over 25 studies with 900+ participants. Users will now be able to find the information they seek, aligning with key business goals like increasing student applications and promoting research. Regular consultation with colleagues at all levels of the organisation means stakeholders are on board.
 
 The architecture has been used to built the forthcoming website and this will now be tested further during user testing. The new website is due to launch later this year.
 

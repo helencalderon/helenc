@@ -12,6 +12,8 @@ img: thumb-cubic.png
 
 Client: Cubic
 
+![New York City subway](../img/nycitymetro.png)
+
 ## Overview ##
 
 New York City’s transport system operates using a system of plastic cards that passengers load with funds and then swipe through ticket barriers. Rolled out in 1993, the transit authority wanted to bring their ticket readers up to date so they accepted new payment methods such as contactless.
@@ -28,7 +30,7 @@ I worked as UX consultant within City’s Interaction Lab, a commercial UX consu
 
 ### Preparation ###
 
-The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. [images] Lastly, the client had produced 4 different images to be used within machine display.
+The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. [Here] Lastly, the client had produced 4 different images to be used within machine display.
 
 I put together a script that tested each of the validators with different combinations of tickets and displays. Because participants could learn the system and to reduce bias associated with the first and last ticket readers they tried, I varied the task order. I created a separate spreadsheet to use during testing so we keep track of type of machine, display and ticket for each task and session. [spreadsheet] A mix of commuter and visitor participants were recruited via an external agency.
 

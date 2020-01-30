@@ -34,11 +34,15 @@ The study involved multiple variables and scenarios. New York’s transport syst
 
 ![Ticket readers, tickets and display variations](../img/test-variables.png)
 
-I put together a script that tested each of the validators with different combinations of tickets and displays. Because participants could learn the system and to reduce bias associated with the first and last ticket readers they tried, I varied the task order. I created a separate spreadsheet to use during testing so we keep track of type of machine, display and ticket for each task and session. [spreadsheet] A mix of commuter and visitor participants were recruited via an external agency.
+I put together a script that tested each of the validators with different combinations of tickets and displays. Because participants could learn the system and to reduce bias associated with the first and last ticket readers they tried, I varied the task order. I created a separate spreadsheet to use during testing so we keep track of type of machine, display and ticket for each task and session. A mix of commuter and visitor participants were recruited via an external agency.
+
+![Ticket reader script](../img/ticket-reader-script.png)
+
+![Spreadsheet tracking different testing variables](../img/task-tracker.png)
 
 ### Study ###
 
-We piloted the study in the client’s office and noticed we needed a definitive way of measuring time on task. In the lab we marked the floor with masking tape. [image] Then after I give the participant the first task we started the timer. Once the participant  passed through the ticket barrier and walked into the taped zone, we stopped the timer.
+We piloted the study in the client’s office and noticed we needed a definitive way of measuring time on task. In the lab we marked the floor with masking tape. Then after I give the participant the first task we started the timer. Once the participant  passed through the ticket barrier and walked into the taped zone, we stopped the timer.
 
 Within the usability lab we set up the 3 different validators – bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes, so participants’ initial impressions were captured while the cameras were recording. 
 

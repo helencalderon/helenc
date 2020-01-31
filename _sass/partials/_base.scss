@@ -143,12 +143,12 @@ h3 {
     line-height: 44px;
 }
 
-h4, p, ul, ol, li>ul {
+h4, p, ul, ol, {
     font-size: em(21px);
     line-height: 36px;
 }
 
-h5 {
+h5, li>ul{
     font-size: em(17px);
     line-height: 30px;
 }

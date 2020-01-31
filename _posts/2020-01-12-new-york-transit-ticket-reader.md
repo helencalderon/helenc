@@ -24,13 +24,13 @@ Our client Cubic was designing a machine that would recognise and accept payment
 
 ## My role ##
 
-I worked as UX consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand what they expected to achieve from the study. I designed the study, created all test materials, managed a student consultant and produced a detailed report for the client.
+I worked as UX consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand what they expected to achieve from the study. I designed the study, created all test materials, managed a student consultant, reviewed session notes and timings, and produced a detailed report for the client.
  
 ## Approach ##
 
 ### Preparation ###
 
-The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and the client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
+The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and the client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets &ndash; 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
 
 ![Ticket readers, tickets and display variations](../img/test-variables.png)
 
@@ -43,6 +43,8 @@ I put together a script that tested each of the validators with different combin
 ### Study ###
 
 We piloted the study in the client’s office and noticed we needed a definitive way of measuring time on task. In the lab we marked the floor with masking tape. Then after I give the participant the first task we started the timer. Once the participant  passed through the ticket barrier and walked into the taped zone, we stopped the timer.
+
+12 participants were recruited via the agency Saros, with 8 fitting a commuter profile and 4 infrequent travellers or tourists. 
 
 Within the usability lab we set up the 3 different validators &ndash; bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes, so participants’ initial impressions were captured while the cameras were recording. 
 
@@ -65,9 +67,11 @@ As the changes to the ticket reader display did not have the desired effect, I r
    * Updating the static image to an animation that shows a hand holding a QR code ticket in the correct position in front of the device. 
    * Adding decals and labels to the device housing to direct users towards the scanner.
    
-My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, we also provided time on task for each participant.
+My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, I also provided time on task by participant and task success rates.
 
 ![Ticket reader report](../img/ticket-reader-report.png)
+
+![Testing metrics] (../img/metrics-png.)
 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay while the mobile app and paper QR tickets remain in development.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 

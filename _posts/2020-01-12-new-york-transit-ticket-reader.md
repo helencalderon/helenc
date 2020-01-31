@@ -30,7 +30,7 @@ I worked as UX consultant within City’s Interaction Lab, a commercial UX consu
 
 ### Preparation ###
 
-The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
+The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and the client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets – 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
 
 ![Ticket readers, tickets and display variations](../img/test-variables.png)
 

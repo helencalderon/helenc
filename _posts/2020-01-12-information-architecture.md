@@ -28,13 +28,13 @@ City's information-rich site needed to answer users' questions, and help them ma
 
 ## My role ##
 
-I worked within an agile team as the sole information architect. I designed and conducted a programme of user research in order to provide the university with a new and proven information architecture. Throughout the process I communicated my work and proposed architecture, getting buy-in from competing internal stakeholders.
+I worked within an agile team as the sole information architect. Over more than a year I designed and conducted a programme of user research in order to provide the university with a new and proven information architecture. Throughout the process I communicated my work and proposed architecture, getting buy-in from competing internal stakeholders.
 
 ## Approach ##
 
 ### Content audit and stakeholder interviews ###
 
-To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, website analytics and third party SEO and market research. 
+To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, Google Analytics, Site Improve and third party SEO and market research. 
 
 ![Audit of sections not within primary navigation](../img/content-audit.png)
 
@@ -51,7 +51,7 @@ Alongside this I also met with stakeholders to understand their content, hear th
 
 #### Card sorts and interviews ####
 
-Following the content audit and stakeholder interviews I conducted open card sort exercises and interviews. Participants included UK and international students, undergraduate and PhD students, researchers, business people and members of the public.
+Following the content audit and stakeholder interviews I conducted 40+ open card sort exercises and interviews. Participants included UK and international students, undergraduate and PhD students, researchers, business people and members of the public.
 
 
 I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
@@ -62,7 +62,7 @@ I selected a sample of pages from across the website and asked participants to s
 
 Alongside card sorts, user interviews gave me insight into their online activities and information needs. 
 
-I was restricted to 80 cards for moderated studies, so I used online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
+I was restricted to 80 cards for moderated studies, so I ran 5 online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
 ![Unmoderated card sort](../img/online-card-sort.PNG)
 
@@ -80,7 +80,7 @@ I conducted tree tests iteratively. Using previous study results I tested differ
 
 ### Communicating the new information architecture ###
 
-I communicated my research and proposed structure through regular meetings with colleagues and presentations to the project’s advisory board and executive team. I carried out new user studies to answer stakeholder questions and test alternative structures and labels. This process ensured the new structure balanced stakeholder requirements with users' needs, and fostered stakeholder buy-in during the project.
+I communicated my research and proposed structure through regular meetings with developers and content editors and presentations to the project’s advisory board and executive team. I carried out new user studies to answer stakeholder questions and test alternative structures and labels. This process ensured the new structure balanced stakeholder requirements with users' needs, and fostered stakeholder buy-in during the project.
 
 ### Outcome ###
 

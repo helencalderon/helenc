@@ -71,7 +71,7 @@ My written report provided additional detailed findings and recommendations for 
 
 ![Ticket reader report](../img/ticket-reader-report.png)
 
-![Testing metrics] (../img/metrics.png)
+![Testing metrics](../img/Metrics.png)
 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay while the mobile app and paper QR tickets remain in development.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 

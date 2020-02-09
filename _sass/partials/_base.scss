@@ -268,9 +268,8 @@ blockquote {
 .wrapper {
     max-width: $main;
     @extend %clearfix;
-    position: relative;
+    padding: 0 6%;
     margin: 0 auto;
-    background-color: $white;
    // @include container(show overlay);
 }
 

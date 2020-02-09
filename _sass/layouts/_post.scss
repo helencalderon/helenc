@@ -1,4 +1,5 @@
 .post{
+    @include body-padding;
     max-width: $post;
     margin: $spacing-unit 0;
     margin-left: $gutter + $grid;
@@ -12,6 +13,9 @@
         &.emoji {
            border: none;
         }
+    }
+    a{
+        @include link-color($h-pink, $pink);
     }
 }
 

@@ -7,35 +7,15 @@
  */
 
 #site-header {
+    @include body-padding;
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: $spacing-unit percentage($gutter/$main);
     background-color: $green;
     a {
-        color: $white;
-        text-decoration: none;
         text-transform: uppercase;
-        letter-spacing: 1px;
-        &:hover{
-            text-decoration: none;
-            border: none;
-        }
-        &:after{
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            border: none;
-        }
-        &:hover:after{
-            @include border(link, $white);
-            width: 98%;
-            transition: .75s ease;
-
-        }
-    } 
+        @include link-color($white, $white);
+    }
     @media only screen and (max-width: $mobile) {
         padding: $spacing-unit $mobile-s-u;
     }

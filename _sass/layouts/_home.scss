@@ -1,3 +1,35 @@
+.home{
+    @include body-padding;
+}
+
+
+/**
+ * About section
+ */
+.about {
+    padding: $spacing-unit;
+    background-color: $blue;
+    @media only screen and (max-width: $tablet) {
+    padding: $mobile-s-u;
+        .img-wrapper {
+        flex-basis: 45%;
+        }
+    }
+    @media only screen and (max-width: $mobile) {
+        .img-wrapper {
+        flex-basis: 25%;
+        }
+    }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.blurb {
+  flex-basis: 59%;
+}
+
+
 %card {
     padding: $spacing-unit;
     margin: $spacing-unit/2 0;
@@ -12,6 +44,11 @@
 }
 
 
+
+/**
+ * Project listing
+ */
+
 .projects {
     background-color: $blue;
    // display: flex;
@@ -19,6 +56,7 @@
     //justify-content: center;
     a {
         text-decoration: none;
+        @include link-color($text-color, $text-color);
     }
     .card {
         background-color: $white;
@@ -42,3 +80,8 @@
         padding: $spacing-unit;
     }
 }
+
+
+
+
+

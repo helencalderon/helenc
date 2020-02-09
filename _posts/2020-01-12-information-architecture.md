@@ -18,7 +18,7 @@ Client: City, University of London
 
 ## Overview ## 
 
-City, University of London is a public institution, with a global audience of 350,000+ users per month. However, its main  website www.city.ac.uk had not been re-developed over 10 years. With hundreds of CMS users and limited oversight it had mushroomed to 20,000 pages with no clear architecture. 
+City, University of London is a public institution, with a global audience of 350,000+ users per month. However, its main  website [www.city.ac.uk](https://www.city.ac.uk) had not been re-developed over 10 years. With hundreds of CMS users and limited oversight it had mushroomed to 20,000 pages with no clear architecture. 
 
 
 ## Challenge ##

@@ -3,18 +3,14 @@
  
 
 #footer {
-    display: block;
-    justify-content: space-between;
+    @include body-padding;
+    display: flex;
     background-color: $green;
-    padding: $spacing-unit;
     font-size: $small-font-size;
     color: $white; 
     a {
         text-decoration: none;  
-        color: $white; 
-        &:hover {
-            border-bottom-color: $white
-        }
+        @include link-color ($white, $grey);
     }
     ul{
         list-style: none;
@@ -22,11 +18,6 @@
     li {
         padding-bottom: $spacing-unit;
         display: inline;
-    }
-    li a:hover {
-        border: none;
-        color: $burg;
-
     }
     p {
         margin-bottom: 0;

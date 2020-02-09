@@ -12,6 +12,8 @@ $turk: #2c5e5e;
 $brown: #35322F;
 $burg: #5e2c2c;
 $blue: #DCEAFB;
+$h-pink: #FE5D9F;
+$pink: #F686BD;
 
 
 $text-color: #1d1d1d;
@@ -71,11 +73,14 @@ b{
         border: $border solid $color;
     }
     @if $side == "link" {
-        border: ($border/10) solid $color;
+        border-bottom: ($border/5) solid $color;
     }
 }
 
 
+@mixin body-padding{
+    padding: $spacing-unit percentage($gutter/$main);
+}
 
 body {
     font-family: $base-font-family;
@@ -198,13 +203,36 @@ h5, li>ul{
  * Links
  */
 
-a {
-    color: $text-color;
-    text-decoration: underline;
-    &:hover {
-        color: $red;
+a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    &:hover{
         text-decoration: none;
-        border-bottom: 3px $red;
+        border: none;
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border: none;
+    }
+}
+ 
+@mixin link-color($color, $visited-color){
+    color: $color;  
+    &:hover:after{
+        @include border(link, $color);
+        width: 98%;
+        transition: .75s ease;
+    }
+    &:visited{
+        color: $visited-color;
+        &:hover:after{
+            @include border(link, $visited-color);
+        }
     }
 }
 
@@ -227,24 +255,6 @@ ul, ol{
 li>ul{
     list-style: disc;
 }
-
-
-
-/**
- * Links
- */
-
-a {
-    color: $text-color;
-    text-decoration: underline;
-    &:hover {
-        color: $text-color;
-        text-decoration: none;
-        @include border(link); 
-    }
-}
-
-
 
 
 /**

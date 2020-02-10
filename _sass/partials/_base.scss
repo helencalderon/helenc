@@ -5,7 +5,7 @@ $header-font: 'Raleway', Futura, Tahoma, sans-serif;
 $base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
 $white: #FFFFFF;
-$grey: #35322F;
+$grey: #d6d2d2;
 $red: #880e27;
 $green: #2c5e2c;
 $turk: #2c5e5e;
@@ -63,7 +63,6 @@ b{
 }
 
 
-
 @mixin border($side, $color: $blue) {
     @if $side=="tb" {
         border-top: $border solid $color;
@@ -93,7 +92,6 @@ body {
     overflow-x: hidden;
 }
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -115,9 +113,6 @@ img
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
-
-
 
 /**
  * Headings
@@ -158,8 +153,6 @@ h5, li>ul{
     line-height: 30px;
 }
 
-
-
 @media only screen and (max-width: $mobile) {
     h1,
     h2,
@@ -198,7 +191,6 @@ h5, li>ul{
     }
 }
 
-
 /**
  * Links
  */
@@ -236,7 +228,6 @@ a{
     }
 }
 
-
 /**
  * Lists
  */
@@ -273,8 +264,6 @@ blockquote {
     }
 }
 
-
-
 .wrapper {
     max-width: $main;
     @extend %clearfix;
@@ -294,8 +283,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 %clearfix {
     &:after {
@@ -329,7 +316,6 @@ img {
         min-height: 230px;
     }
 }
-
 
 .emoji{
     padding-bottom: 6px;

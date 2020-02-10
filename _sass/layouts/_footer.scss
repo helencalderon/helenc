@@ -4,10 +4,7 @@
 
 #footer {
     @include body-padding;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-column-gap: $spacing-unit;
-    grid-template-rows: minmax(40px, auto) minmax(40px, auto) minmax(20px, 120.75px);
+    display: flex;
     background-color: $green;
     font-size: $small-font-size;
     color: $white; 
@@ -17,10 +14,10 @@
     }
     ul{
         list-style: none;
+        padding: 0;
     }
     li {
-        padding-bottom: $spacing-unit;
-        display: inline;
+        display: inline-block;
     }
     p {
         margin-bottom: 0;
@@ -35,9 +32,13 @@
 }
 
 #socials{
+    &:hover{
+        text-decoration: none;
+    }
 
 }
 
 #footer-nav{
-   
+    max-width: 470px;
+
 }

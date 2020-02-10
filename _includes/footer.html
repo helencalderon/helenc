@@ -1,11 +1,4 @@
 <footer id="footer">
-    <ul id="socials">
-        <li> <a href="https://github.com/helencalderon"><i class="fab fa-fw fa-github"></i></a></li>
-        <li> <a href="https://www.linkedin.com/in/helencalderon/"><i class="fab fa-fw fa-linkedin"></i></a></li>
-        <li> <a href="https://www.twitter.com/helen26"><i class="fab fa-fw fa-twitter"></i></a></li>
-        <li> <a href="mailto:helencalderon@gmail.com"><i class="fas fa-fw fa-at "></i></a></li>
-    </ul>
-    <p>Designed and hand coded by <a href="{{ site.baseurl | append: "/humans.txt" }}">me</a>.</p>
     <ul id="footer-nav">
         {% assign posts = site.posts | sort: "year" %}
         {% for post in posts reversed %}
@@ -15,4 +8,11 @@
         {% endif %}
         {% endfor %}
     </ul>
+    <ul id="socials">
+        <li> <a href="https://github.com/helencalderon"><i class="fab fa-fw fa-github"></i></a></li>
+        <li> <a href="https://www.linkedin.com/in/helencalderon/"><i class="fab fa-fw fa-linkedin"></i></a></li>
+        <li> <a href="https://www.twitter.com/helen26"><i class="fab fa-fw fa-twitter"></i></a></li>
+        <li> <a href="mailto:helencalderon@gmail.com"><i class="fas fa-fw fa-at "></i></a></li>
+    </ul>
+    <p>Designed and hand coded by <a href="{{ site.baseurl | append: "/humans.txt" }}">me</a>.</p>
 </footer>

@@ -4,7 +4,10 @@
 
 #footer {
     @include body-padding;
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: $spacing-unit;
+    grid-template-rows: minmax(40px, auto) minmax(40px, auto) minmax(20px, 120.75px);
     background-color: $green;
     font-size: $small-font-size;
     color: $white; 
@@ -29,4 +32,12 @@
 
 .fa {
 
+}
+
+#socials{
+
+}
+
+#footer-nav{
+   
 }

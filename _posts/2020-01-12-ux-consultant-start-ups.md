@@ -1,6 +1,6 @@
 ---
 layout: post
-project: Testing and expert review of a B2B software-as-a-service platform
+project: Expert review of workflow automation tool
 company: Autto
 description: Reviewed and user tested an application offering business process automation for law firms. I found over 50 potential improvements and defects the start-up could fix prior to launching their MVP.
 skills: Expert review, wireframing, user testing

@@ -1,25 +1,46 @@
 .post{
-    @include body-padding;
-    max-width: $post;
-    margin: $spacing-unit 0;
-    margin-left: $gutter + $grid;
-    @media only screen and (max-width: $post) {
-        margin: $spacing-unit;
-    }
-    img {
-    	max-width: $main - ($gutter*2) - ($border*2);
-    	margin-left: $grid * -1;
-    	@include border(all);
-        &.emoji {
-           border: none;
-        }
+    &.emoji {
+       border: none;
     }
     a{
         @include link-color($h-pink, $pink);
+    }
+    img {
+        @include border(all, $grey);
+        @media screen and (min-width:$mobile) {
+            max-width: 97%;            
+        }
+        @media screen and (min-width:$tablet) {
+            max-width: 100%;            
+        }
+        @media screen and (min-width: 1000px) {
+            max-width: 130%;
+            margin-left: -16%;
+        }
+        @media screen and (min-width: $main) {
+            max-width: $main - ($gutter*2) - ($border*2);
+            margin-left: $grid * -1;
+        }
+        &.hero{
+            border: none;
+            border-radius: 0;
+        }
+    }
+    @media only screen and (min-width: $tablet) { 
+        max-width: $post;    
     }
 }
 
 .list{
 	margin-bottom: 0;
 }
+
+
+
+
+// @mixin inner-wrapper{
+// max-width: $main;
+// margin: 0 auto;
+// padding: 0 percentage($gutter/$main);
+// }
 

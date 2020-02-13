@@ -12,7 +12,7 @@ img: thumb-cubic.png
 
 Client: Cubic
 
-![New York City subway](../img/nycitymetro.png)
+![New York City subway](../img/nycitymetro.png){: .hero}
 
 ## Overview ##
 
@@ -32,13 +32,13 @@ I worked as UX consultant within City’s Interaction Lab, a commercial UX consu
 
 The study involved multiple variables and scenarios. New York’s transport system includes buses and trains and the client had an old subway validator we could test as a benchmark. The new machines were going to work with 3 types of tickets &ndash; 2 paper versions and 1 within a mobile phone app. Lastly, the client had produced 4 different images to be used within machine display.
 
-![Ticket readers, tickets and display variations](../img/test-variables.png)
+![Ticket readers, tickets and display variations](../img/test-variables.png "Ticket readers, tickets and display variations")
 
 I put together a script that tested each of the validators with different combinations of tickets and displays. Because participants could learn the system and to reduce bias associated with the first and last ticket readers they tried, I varied the task order. I created a separate spreadsheet to use during testing so we keep track of type of machine, display and ticket for each task and session. A mix of commuter and visitor participants were recruited via an external agency.
 
-![Ticket reader script](../img/ticket-reader-script.png)
+![Ticket reader user testing script](../img/ticket-reader-script.png "Ticket reader user testing script]")
 
-![Spreadsheet tracking different testing variables](../img/task-tracker.png)
+![Spreadsheet tracking different testing variables](../img/task-tracker.png "Spreadsheet tracking different testing variables")
 
 ### Study ###
 
@@ -50,7 +50,7 @@ Within the usability lab we set up the 3 different validators &ndash; bus, subwa
 
 Participants successfully validated their ticket when the screen displayed a static QR code towards the bottom of the device, closest to the scanner. Using this finding, the client was able to test 2 new iterations of the QR-code display on the second day of testing.  
 
-![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png)
+![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png "Room layout for testing the ticket reader")
  
 ### Findings and recommendations ###
 
@@ -69,13 +69,13 @@ As the changes to the ticket reader display did not have the desired effect, I r
    
 My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, I also provided time on task by participant and task success rates.
 
-![Ticket reader report](../img/ticket-reader-report.png)
+![Ticket reader user testing report](../img/ticket-reader-report.png "Ticket reader user testing report")
 
-![Testing metrics](../img/Metrics.png)
+![Success measures from testing](../img/Metrics.png "Success measures from testing")
 
 ## Outcome ##
 The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay. Further payment methods including the mobile app and paper QR tickets remain in development, due in 2022.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 
 
-![Deployed ticket readers in New York subway](../img/deployed-ticket-readers.png)
+![Deployed ticket readers in New York subway](../img/deployed-ticket-readers.png "Deployed ticket readers in New York subway"){: .hero}
 
 

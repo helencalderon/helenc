@@ -69,7 +69,12 @@ b{
         border-bottom: $border solid $color
     }
     @if $side=="all" {
+        @media only screen and (max-width: $mobile) {
+            border-width: $border/4;   
+            border-radius: $border; 
+        }
         border: $border solid $color;
+        border-radius: $border*2;
     }
     @if $side == "link" {
         border-bottom: ($border/5) solid $color;
@@ -81,9 +86,10 @@ b{
     padding: $spacing-unit percentage($gutter/$main);
 }
 
+
+
 body {
     font-family: $base-font-family;
-    font-size: em($base-font-size);
     font-weight: 300;
     color: $text-color;
     background-color: $blue;
@@ -185,7 +191,7 @@ h5, li>ul{
         line-height: 30px;
     }
 
-    h4,p {
+    h4,p, h5, ul, ol, li>ul {
         font-size: em(14px);
         line-height: 24px;
     }
@@ -217,7 +223,7 @@ a{
     color: $color;  
     &:hover:after{
         @include border(link, $color);
-        width: 98%;
+        width: 100%;
         transition: .75s ease;
     }
     &:visited{
@@ -281,8 +287,11 @@ blockquote {
  */
 img {
     max-width: 100%;
-    vertical-align: middle;
 }
+
+/**
+* Wrappers and display
+*/
 
 %clearfix {
     &:after {
@@ -299,10 +308,6 @@ img {
     grid-column-gap: fluid(18px);
 }
 
-.flex-wrapper {
-    display: flex;
-    flex-direction: column;
-}
 
 %card {
     padding: $spacing-unit;
@@ -317,8 +322,23 @@ img {
     }
 }
 
+/** used **/
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-wrapper{
+ max-width: $main;
+ margin: 0 auto;
+ padding: 0 percentage($gutter/$main);
+}
+
 .emoji{
     padding-bottom: 6px;
 }
 
-
+#four-oh-four {
+    margin: 1em auto;
+    font-size: 10em;
+}

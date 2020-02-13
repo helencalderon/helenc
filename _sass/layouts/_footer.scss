@@ -3,14 +3,24 @@
  
 
 #footer {
-    @include body-padding;
-    display: flex;
     background-color: $green;
     font-size: $small-font-size;
     color: $white; 
+    div:first-child{
+        padding-top:$spacing-unit;
+        padding-bottom: $spacing-unit;
+        @media only screen and (min-width: $tablet) { //this may need to be from tablet up
+            display: flex;
+            flex-direction: row-reverse; 
+            justify-content: space-between;
+        }
+    }
     a {
         text-decoration: none;  
         @include link-color ($white, $grey);
+    }
+    p a {
+        @include link-color ($h-pink, $pink);
     }
     ul{
         list-style: none;
@@ -27,18 +37,38 @@
     }
 }
 
-.fa {
-
-}
 
 #socials{
-    &:hover{
-        text-decoration: none;
+    min-width: 137px;
+    li{
+        padding: 0 percentage($gutter/$main);
     }
-
+    a:hover{
+        color: $pink;
+        transition: color 1s ease;
+        &:after {
+        border: none;
+        }
+    }
+    a:visited:after{
+        border: none;
+     }
 }
 
 #footer-nav{
-    max-width: 470px;
+    max-width: 285px;
+    margin-bottom: $spacing-unit;
+    @media only screen and (min-width: $mobile) { 
+        max-width: 415px;
+    }
+}
 
+.non-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.active { //works with jQuery
+    @include border(link, $h-pink);
 }

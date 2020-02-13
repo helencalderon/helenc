@@ -14,7 +14,7 @@ img: i-a-thumb.png
 
 Client: City, University of London
 
-![City campus](../img/city.jpg)
+![City campus](../img/city.jpg "City campus"){: .hero}
 
 ## Overview ## 
 
@@ -36,7 +36,7 @@ I worked within an agile team as the sole information architect. Over more than 
 
 To gain an understanding of existing online content and user behaviour across City's website I began by reviewing City's existing content, Google Analytics, Site Improve and third party SEO and market research. 
 
-![Audit of sections not within primary navigation](../img/content-audit.png)
+![Audit of sections not within primary navigation](../img/content-audit.png "Audit of sections not within primary navigation")
 
 I discovered:
 {: .list}
@@ -56,7 +56,7 @@ Following the content audit and stakeholder interviews I conducted 40+ open card
 
 I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
 
-![Test script showing open card sort task](../img/open-card-script.PNG)
+![Test script showing open card sort task](../img/open-card-script.PNG "Test script showing open card sort task")
 
 ![Cards sorted](../img/cards-2.png)
 
@@ -64,17 +64,17 @@ Alongside card sorts, user interviews gave me insight into their online activiti
 
 I was restricted to 80 cards for moderated studies, so I ran 5 online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
-![Unmoderated card sort](../img/online-card-sort.PNG)
+![Unmoderated card sort](../img/online-card-sort.PNG "Unmoderated card sort")
 
 I reviewed interview data, using sticky notes and affinity diagrams to find common goals, frustrations and information tasks and created personas to help generate empathy for users. 
 
-![Personas](../img/personas3.PNG)
+![Personas](../img/personas3.PNG "Personas")
 
 #### Tree testing and interviews ####
 
 Using the labels and groupings generated from the card sorts, together with the personas, I created an initial sitemap or 'tree'. I evaluated the architecture using tree testing studies within Optimal Workshop. Many of these studies were conducted online, with participants recruited via Usertesting.com.
 
-![TreeJack study task results](../img/tree-2.PNG)
+![TreeJack study task results](../img/tree-2.PNG "TreeJack study task results")
  
 I conducted tree tests iteratively. Using previous study results I tested different labels and structures until research showed participants could find key information. All together I conducted 20+ tree testing studies online, 20 in-person tests and guerilla tests.
 
@@ -88,16 +88,16 @@ After a year of user research, City has a new agreed information architecture fo
 
 The architecture has been used to built the forthcoming website and this will now be tested further during user testing. The new website is due to launch later this year.
 
-![Top-level sitemap](../img/sitemap-main.png)
+![Top-level sitemap](../img/sitemap-main.png "Top-level sitemap")
 
-![Prospective students sitemap](../img/sitemap-p-s-2.png)
+![Prospective students sitemap](../img/sitemap-p-s-2.png "Prospective students sitemap")
 
-![Visas section sitemap](../img/sitemap-visas.PNG)
+![Visas section sitemap](../img/sitemap-visas.PNG "Visas section sitemap")
 
-![Finance section sitemap](../img/sitemap-finance.PNG)
+![Finance section sitemap](../img/sitemap-finance.PNG "Finance section sitemap")
 
-![Grown your business section sitemap](../img/sitemap-business.png)
+![For businesses sitemap](../img/sitemap-business.png "For businesses sitemap")
 
-![Grown your business section sitemap](../img/sitemap-grow-business.PNG)
+![Grow your business section sitemap](../img/sitemap-grow-business.PNG "Grow your business section sitemap")
 
 

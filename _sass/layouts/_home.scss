@@ -1,5 +1,7 @@
-.home, .four-oh-four {
-    @include body-padding;
+.home,
+.four-oh-four {
+    padding: 0 percentage($gutter/$main);
+    background-color: $blue;
 }
 
 
@@ -7,27 +9,23 @@
  * About section
  */
 .about {
-    padding: $spacing-unit;
-    background-color: $blue;
-    @media only screen and (max-width: $tablet) {
-    padding: $mobile-s-u;
-        .img-wrapper {
-        flex-basis: 45%;
-        }
-    }
-    @media only screen and (max-width: $mobile) {
-        .img-wrapper {
-        flex-basis: 25%;
-        }
-    }
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    }
-
-.blurb {
-  flex-basis: 59%;
+    @extend %clearfix;
+    max-width: 1050px;
+    margin: 0;
 }
+
+#img-me{
+    display: inline;
+    float: right;
+    max-width: 36%;
+    @media only screen and (min-width: $tablet) {
+        margin-top: -10px;
+    }
+    @media only screen and (min-width: 1050px) {
+        margin-top: -41px;
+    }    
+}
+
 
 
 %card {
@@ -35,9 +33,11 @@
     margin: $spacing-unit/2 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
     flex-grow: 0;
+
     p:first-child {
         @include font-size(h3);
     }
+
     @media only screen and (min-width: 340px) and (max-width: $mobile) {
         min-height: 230px;
     }
@@ -49,9 +49,15 @@
  * Project listing
  */
 
+@keyframes shine {
+    100% {
+        left: 125%;
+    }
+}
+
 .projects {
     background-color: $blue;
-   // display: flex;
+    // display: flex;
     //flex-wrap: wrap;
     //justify-content: center;
     a {
@@ -65,23 +71,25 @@
         align-items: flex-start;
         border: 1px solid black;
         margin: $spacing-unit;
-        &:hover {
-            opacity: .65;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: -75%;
+            z-index: 2;
+            display: block;
+            content: '';
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+            transform: skewX(-25deg);
         }
-        img{
-
-        }
-    }
-
-    .meta {
-        font-size: $small-font-size;
-    }
-    .blurb {
-        padding: $spacing-unit;
+        &:hover::before {}
     }
 }
 
-
-
+.meta {
+    font-size: $small-font-size;
+}
 
 

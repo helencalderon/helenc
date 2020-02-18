@@ -2,7 +2,7 @@
 layout: post
 company: City, University of London
 project: Information achitecture redesign 
-description: A new architecture for an information-rich public-body website with a global audience. Managed and conducted all aspects of user research. 
+description: A new architecture for an information-rich website with disparate users. I devised and conducted all aspects of the user research. 
 skills: Information architecture
 year: 2019
 permalink: /information-architecture-redesign/

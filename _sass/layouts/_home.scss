@@ -56,7 +56,6 @@
 }
 
 .projects {
-    background-color: $blue;
     // display: flex;
     //flex-wrap: wrap;
     //justify-content: center;
@@ -64,32 +63,50 @@
         text-decoration: none;
         @include link-color($text-color, $text-color);
     }
-    .card {
-        background-color: $white;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        border: 1px solid black;
-        margin: $spacing-unit;
-        position: relative;
-        &::before {
-            position: absolute;
-            top: 0;
-            left: -75%;
-            z-index: 2;
-            display: block;
-            content: '';
-            width: 50%;
-            height: 100%;
-            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
-            transform: skewX(-25deg);
-        }
-        &:hover::before {}
+    img{
+        margin: -3%;
+        max-width: 106%;        
     }
 }
 
-.meta {
-    font-size: $small-font-size;
+.project-desc{
+    color: #1d1d1dbf;
 }
 
+.meta {
+    color: #1d1d1dbf;
+    font-size: $small-font-size;
+    @media only screen and (min-width: $mobile) {
+        @include font-size(h4);
+    }
+}
 
+.blurb {
+    padding-top: $mobile-s-u;
+ }
+
+
+.card {
+    background-color: $white;
+    padding: percentage($gutter/$main);
+    border: 2px solid $grey;
+    margin-bottom: percentage($gutter/$main);
+    @media only screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    &::before {
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 2;
+        display: block;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+        transform: skewX(-25deg);
+    }
+    &:hover::before {}
+}

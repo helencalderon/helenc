@@ -31,11 +31,7 @@
  * Project listing
  */
 
-@keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
+
 
 .projects {
     a {
@@ -78,6 +74,7 @@
     border: 2px solid $grey;
     margin-bottom: percentage($gutter/$main);
     max-width: $post;
+    overflow: hidden;
     @media only screen and (min-width: $post) {
         margin: 0 auto percentage($gutter/$main) auto;
     }
@@ -91,18 +88,25 @@
     &::before {
         position: absolute;
         top: 0;
-        left: -100%;
+        left: -125%;
         z-index: 2;
         display: block;
         content: '';
-        width: 50%;
+        width: 40%;
         height: 100%;
         background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
         -webkit-transform: skewX(-25deg);
         transform: skewX(-25deg);
     }
     &:hover::before {
-        -webkit-animation: shine 2s;
-        animation: shine 2s;
+        -webkit-animation: shine 2.2s;
+        animation: shine 2.2s;
+    }
+}
+
+
+@keyframes shine {
+    100% {
+        left: 100%;
     }
 }

@@ -5,3 +5,6 @@ _site
 node_modules
 img-backup
 dev
+dev/img
+_drafts
+css/main-abrv.scss

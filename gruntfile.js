@@ -76,12 +76,12 @@ module.exports = function(grunt) {
             options: {
                // map: true,
                 processors: [
-                    require('autoprefixer'), // This will call on the browserlist variable set in package.json
-                    require('cssnano')()
+                    require('autoprefixer') // This will call on the browserlist variable set in package.json
+                   // require('cssnano')()
                 ]
             },
             dist: {
-                src: '_site/css/main.css'
+                src: '_site/css/main-abrv.css'
             }
         }
 

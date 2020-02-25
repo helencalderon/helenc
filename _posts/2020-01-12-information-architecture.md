@@ -7,6 +7,7 @@ skills: Information architecture
 year: 2019
 permalink: /information-architecture-redesign/
 img: i-a-thumb.png
+last_modified_at: 2020-02-18
 
 ---
 

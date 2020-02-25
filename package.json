@@ -27,6 +27,6 @@
     "pixrem": "^5.0.0"
   },
   "browserslist": [
-  "> .1% in GB"
-   ]
+    "> .1% in GB"
+  ]
 }

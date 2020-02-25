@@ -10,8 +10,12 @@
         padding-top:$spacing-unit;
         padding-bottom: $spacing-unit;
         @media only screen and (min-width: $tablet) { //this may need to be from tablet up
+            display: -webkit-box;
             display: flex;
             flex-direction: row-reverse; 
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -webkit-box-pack: justify;
             justify-content: space-between;
         }
     }
@@ -46,6 +50,7 @@
     a:hover{
         color: $pink;
         transition: color 1s ease;
+        -webkit-transition: color 1s ease;
         &:after {
         border: none;
         }
@@ -66,7 +71,10 @@
 .non-nav {
     display: flex;
     flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
 }
 
 .active { //works with jQuery

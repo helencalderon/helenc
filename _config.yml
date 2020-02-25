@@ -30,9 +30,12 @@ github_username:  helencalderon
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 livereload: true
+sass:
+    sass_dir: _sass
+    style: expanded
 
 # Exclude from processing.
 # The following items will not be processed, by default.

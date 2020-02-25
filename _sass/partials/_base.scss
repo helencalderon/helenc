@@ -1,6 +1,10 @@
-
-$base-font-family: 'Open Sans', Arial, sans-serif;
-$header-font: 'Raleway', Futura, Tahoma, sans-serif;
+$base-font-family: 'Open Sans',
+Arial,
+sans-serif;
+$header-font: 'Raleway',
+Futura,
+Tahoma,
+sans-serif;
 
 $base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
@@ -36,7 +40,7 @@ $grid: 275px; //4 grids
 $gutter: $spacing-unit;
 $border: 9px;
 
-b{
+b {
     font-weight: 700;
 }
 
@@ -45,18 +49,23 @@ b{
     @if $element-size=="h1" {
         font-size: em(43px);
     }
+
     @if $element-size=="h2" {
         font-size: em(34px)
     }
+
     @if $element-size=="h3" {
         font-size: em(27px)
     }
+
     @if $element-size=="h4" {
         font-size: em(21px)
     }
+
     @if $element-size=="p" {
         font-size: em(21px)
     }
+
     @if $element-size=="h5" {
         font-size: em(17px)
     }
@@ -68,21 +77,24 @@ b{
         border-top: $border solid $color;
         border-bottom: $border solid $color
     }
+
     @if $side=="all" {
         @media only screen and (max-width: $mobile) {
-            border-width: $border/4;   
-            border-radius: $border; 
+            border-width: $border/4;
+            border-radius: $border;
         }
+
         border: $border solid $color;
         border-radius: $border*2;
     }
-    @if $side == "link" {
+
+    @if $side=="link" {
         border-bottom: ($border/5) solid $color;
     }
 }
 
 
-@mixin body-padding{
+@mixin body-padding {
     padding: $spacing-unit percentage($gutter/$main);
 }
 
@@ -115,8 +127,7 @@ ul,
 ol,
 dl,
 figure,
-img
-%vertical-rhythm {
+img %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -128,7 +139,7 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
     font-family: $header-font;
     text-transform: uppercase;
 }
@@ -149,7 +160,10 @@ h3 {
     line-height: 44px;
 }
 
-h4, p, ul, ol {
+h4,
+p,
+ul,
+ol {
     font-size: em(21px);
     line-height: 36px;
 }
@@ -165,6 +179,7 @@ li>ul {
 }
 
 @media only screen and (max-width: $mobile) {
+
     h1,
     h2,
     h3,
@@ -181,6 +196,7 @@ li>ul {
     %vertical-rhythm {
         margin-bottom: $mobile-s-u;
     }
+
     h1 {
         font-size: em(29px);
         line-height: 46px;
@@ -196,10 +212,15 @@ li>ul {
         line-height: 30px;
     }
 
-    h4,p, h5, ul, ol  {
+    h4,
+    p,
+    h5,
+    ul,
+    ol {
         font-size: em(14px);
         line-height: 24px;
     }
+
     li>ul {
         font-size: 14px;
         line-height: 24px;
@@ -210,15 +231,17 @@ li>ul {
  * Links
  */
 
-a{
+a {
     text-decoration: none;
     letter-spacing: 1px;
     position: relative;
-    &:hover{
+    color: inherit;
+    &:hover {
         text-decoration: none;
         border: none;
     }
-    &:after{
+
+    &:after {
         content: '';
         position: absolute;
         bottom: 0;
@@ -227,17 +250,20 @@ a{
         border: none;
     }
 }
- 
-@mixin link-color($color, $visited-color){
-    color: $color;  
-    &:hover:after{
+
+@mixin link-color($color, $visited-color) {
+    color: $color;
+    &:hover:after {
         @include border(link, $color);
         width: 100%;
+        -webkit-transition: .75s ease;
         transition: .75s ease;
     }
-    &:visited{
+
+    &:visited {
         color: $visited-color;
-        &:hover:after{
+
+        &:hover:after {
             @include border(link, $visited-color);
         }
     }
@@ -254,11 +280,12 @@ li {
     padding: 0;
 }
 
-ul, ol{
+ul,
+ol {
     padding-left: $gutter;
 }
 
-li>ul{
+li>ul {
     list-style: disc;
 }
 
@@ -274,6 +301,7 @@ blockquote {
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
+
     > :last-child {
         margin-bottom: 0;
     }
@@ -284,7 +312,7 @@ blockquote {
     @extend %clearfix;
     padding: 0 6%;
     margin: 0 auto;
-   // @include container(show overlay);
+    // @include container(show overlay);
 }
 
 /**
@@ -333,17 +361,20 @@ img {
 
 /** used **/
 .flex-wrapper {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
 }
 
-.inner-wrapper{
- max-width: $main;
- margin: 0 auto;
- padding: 0 percentage($gutter/$main);
+.inner-wrapper {
+    max-width: $main;
+    margin: 0 auto;
+    padding: 0 percentage($gutter/$main);
 }
 
-.emoji{
+.emoji {
     padding-bottom: 6px;
 }
 

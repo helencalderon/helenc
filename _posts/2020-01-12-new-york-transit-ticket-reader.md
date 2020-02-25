@@ -7,6 +7,7 @@ skills: User testing
 year: 2018
 permalink: /user-testing-a-public-transportation-ticket-reader/
 img: thumb-cubic.png
+last_modified_at: 2020-02-22
 ---
 # User testing a public transport ticket reader #
 

@@ -9,6 +9,7 @@
         @include border(all, $grey);
         visibility: hidden;
         &.fade-in{
+            -webkit-animation: show-image 1s;
             animation: show-image 1s;
             visibility: visible !important;
         }
@@ -52,12 +53,4 @@
         opacity: 1;
     }
 }
-
-
-
-// @mixin inner-wrapper{
-// max-width: $main;
-// margin: 0 auto;
-// padding: 0 percentage($gutter/$main);
-// }
 

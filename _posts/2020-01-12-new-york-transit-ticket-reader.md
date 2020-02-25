@@ -29,7 +29,7 @@ Participants didn't understand where the scanning functionality was located with
 
 ## My role ##
 
-I worked as UX consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand their expections for the study. I then designed the study, and created all test materials. I managed a student consultant, and together we ran the study. I then reviewed session notes and participant timings, and produced a detailed report for the client.
+I worked as UX Consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand their expections for the study. I then designed the study, and created all test materials. I managed a student consultant, and together we ran the study. I then reviewed session notes and participant timings, and produced a detailed report for the client.
  
 ## Approach ##
 
@@ -46,7 +46,7 @@ The study involved multiple variables and scenarios:
 
 A mix of commuter and visitor participants were recruited via an external agency. 
 
-Different scenarios within my script tested each of the validators with different combinations of tickets and displays. I varied task order from session to session to reduce the impact of system learnability and participant bias. We used a spreadsheet to keep the variables straight during testing. 
+I created a script that drew on different scenarios so that different combinations of ticket machines, tickets and displays were tested. I varied task order from session to session to reduce the impact of system learnability and participant bias. We used a spreadsheet to keep the variables straight during testing. 
 
 ![Ticket reader user testing script](../img/ticket-reader-script.png "Ticket reader user testing script]")
 
@@ -57,9 +57,9 @@ We piloted the study in the client’s office. We noticed we needed a definitive
 ### Study ###
 
 
-Within the usability lab we set up the 3 different validators &ndash; bus, subway and existing subway machine. We used 2 cameras to record participants as they used the machines. The ticket validators were initially covered by boxes. This way participants’ initial impressions were captured while the cameras were recording. 
+Within the usability lab we set up the 3 different ticket validators, 1 each for the bus, subway and existing subway machine. So we didn't miss participants' intitial impressions we started with ticketing machines covered with cardboard boxes. 2 cameras captured participants' reactions and interactions as they used the machines. 
 
-Participants successfully validated their ticket when the screen displayed a static QR code towards the bottom of the device, closest to the scanner. Using this finding, the client was able to test 2 new iterations of the QR-code display on the second day of testing.  
+The first day's tests gave some results that allowed the client to iterate the device display further. Day two tested 2 further versions of the QR-code screen.  
 
 ![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png "Room layout for testing the ticket reader")
  
@@ -67,25 +67,25 @@ Participants successfully validated their ticket when the screen displayed a sta
 
 After finishing the testing I reviewed the session notes together with the student consultant and agreed on the main findings. 
 
-Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. The placement and range of the scanner meant users needed to hover their ticket a few centimeters above the lower edge of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket in order to pass through the barriers. Many couldn’t do this within 2 seconds, especially on their first attempt.
+Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket (at least 3-4cm from the bottom edge of the display) in order to pass through the barriers. Many couldn’t do this within 2 seconds, especially on their first attempt.
 
-As the changes to the ticket reader display did not have the desired effect, I recommended the following: 
+As the changes to the ticket reader display did not have the desired effect, I suggested the client undertake one of the following options: 
 {: .list}
 
 1.	If time permits, update the physical device. Recess and inset the scanner so users can successfully validate their ticket by placing it directly on the screen. The tactile feedback would provide users with certainty and confidence, and would make learning where to place the ticket easy. 
-2.	If time doesn’t allow,change the display so users are more likely to position their ticket within the scanner’s range. Possible changes to consider and test include:
-   * Dividing the contactless and barcode sections of the screen with different background colours to prevent users from placing mobile and paper tickets directly on the display. 
-   * Updating the static image to an animation that shows a hand holding a QR code ticket in the correct position in front of the device. 
-   * Adding decals and labels to the device housing to direct users towards the scanner.
+2.	If time doesn’t allow, change the display to increase the liklihood users position their ticket within the scanner’s range. Changes could include: 
+   * Dividing the contactless and barcode sections of the screen (as one requires a tap and once doesn't) 
+   * Using animation to communicate how and where to best scan a ticket 
+   * Adding decals to the device housing to direct users towards the scanner.
    
-My written report provided additional detailed findings and recommendations for the ticket barrier &ndash; its height, lights, and sounds; the device housing; the display; and planned turnstiles. While there weren’t enough participants to produce statistically representative results, I also provided time on task by participant and task success rates.
+My written report provided additional detailed findings and recommendations for the ticket machine as a whole. While there weren’t enough participants to produce statistically representative results, I also provided time on task by participant and task success rates.
 
 ![Ticket reader user testing report](../img/ticket-reader-report.png "Ticket reader user testing report")
 
 ![Success measures from testing](../img/metrics.png "Success measures from testing")
 
 ## Outcome ##
-The New York Transit Authority started rolling out the first phase of new ticket readers in 2019. To start these have been limited to contactless, Apple Pay and Google Pay. Further payment methods including the mobile app and paper QR tickets remain in development, due in 2022.  The client has since returned to the lab to conduct further user research into possible future ticket readers. 
+The New York Transit Authority rolled out the first ticket readers in 2019, starting with machines that accepted contactless, Apple Pay and Google Pay. Further payment methods including the mobile app and paper QR tickets remain in development, due to be released in 2022. The client has since returned to the lab to conduct further user research into possible future ticket readers. 
 
 ![Deployed ticket readers in New York subway](../img/deployed-ticket-readers.png "Deployed ticket readers in New York subway"){: .hero}
 

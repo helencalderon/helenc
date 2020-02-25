@@ -86,7 +86,7 @@ b {
     }
 
     @if $side=="link" {
-        border-bottom: ($border/5) solid $color;
+        border-bottom: $border/2 solid $color;
     }
 }
 
@@ -256,7 +256,6 @@ a {
         -webkit-transition: .75s ease;
         transition: .75s ease;
     }
-
     &:visited {
         color: $visited-color;
 

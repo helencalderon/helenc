@@ -38,7 +38,7 @@ $mobile: 479px;
 $tablet: 768px;
 $grid: 275px; //4 grids 
 $gutter: $spacing-unit;
-$border: 9px;
+$border: 4px;
 
 b {
     font-weight: 700;
@@ -81,11 +81,8 @@ b {
     @if $side=="all" {
         @media only screen and (max-width: $mobile) {
             border-width: $border/4;
-            border-radius: $border;
         }
-
         border: $border solid $color;
-        border-radius: $border*2;
     }
 
     @if $side=="link" {
@@ -307,13 +304,6 @@ blockquote {
     }
 }
 
-.wrapper {
-    max-width: $main;
-    @extend %clearfix;
-    padding: 0 6%;
-    margin: 0 auto;
-    // @include container(show overlay);
-}
 
 /**
  * Clearfix
@@ -338,28 +328,6 @@ img {
     }
 }
 
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: auto;
-    grid-column-gap: fluid(18px);
-}
-
-
-%card {
-    padding: $spacing-unit;
-    margin: $spacing-unit/2 0;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
-    flex-grow: 0;
-    p:first-child {
-        @include font-size(h3);
-    }
-    @media only screen and (min-width: 340px) and (max-width: $mobile) {
-        min-height: 230px;
-    }
-}
-
-/** used **/
 .flex-wrapper {
     display: -webkit-box;
     display: flex;
@@ -372,10 +340,6 @@ img {
     max-width: $main;
     margin: 0 auto;
     padding: 0 percentage($gutter/$main);
-}
-
-.emoji {
-    padding-bottom: 6px;
 }
 
 #four-oh-four {

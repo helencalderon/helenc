@@ -1,7 +1,4 @@
 .post{
-    &.emoji {
-       border: none;
-    }
     a{
         @include link-color($h-pink, $pink);
     }

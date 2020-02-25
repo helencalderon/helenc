@@ -102,7 +102,7 @@
         transform: skewX(-25deg);
     }
     &:hover::before {
-        -webkit-animation: shine 3s;
-        animation: shine 3s;
+        -webkit-animation: shine 2s;
+        animation: shine 2s;
     }
 }

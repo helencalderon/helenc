@@ -46,7 +46,7 @@ The study involved multiple variables and scenarios:
 
 A mix of commuter and visitor participants were recruited via an external agency. 
 
-I created a script that drew on different scenarios so that different combinations of ticket machines, tickets and displays were tested. I varied task order from session to session to reduce the impact of system learnability and participant bias. We used a spreadsheet to keep the variables straight during testing. 
+I created a script that drew on different scenarios so that different combinations of ticket machines, tickets and displays were tested. I varied task order from session to session to reduce the impact of system learnability and participant bias. We used a spreadsheet to keep track of the variable order and combinations for each task and participant session. 
 
 ![Ticket reader user testing script](../img/ticket-reader-script.png "Ticket reader user testing script]")
 
@@ -67,7 +67,7 @@ The first day's tests gave some results that allowed the client to iterate the d
 
 After finishing the testing I reviewed the session notes together with the student consultant and agreed on the main findings. 
 
-Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket (at least 3-4cm from the bottom edge of the display) in order to pass through the barriers. Many couldn’t do this within 2 seconds, especially on their first attempt.
+Of all the different screens tested, participants were more likely to validate their ticket with one displaying a QR-code in the lower half of the device. Even with the best performing variation of the display, participants struggled to learn where exactly they needed to position their ticket (at least 3-4cm from the bottom edge of the display) in order to pass through the barriers. Many couldn’t do this within two seconds, especially on their first attempt.
 
 As the changes to the ticket reader display did not have the desired effect, I suggested the client undertake one of the following options: 
 {: .list}

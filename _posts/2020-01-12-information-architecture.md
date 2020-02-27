@@ -1,7 +1,7 @@
 ---
 layout: post
 company: City, University of London
-project: Information achitecture redesign 
+project: Information architecture redesign 
 description: A new architecture for an information-rich website with disparate users. I devised and conducted all aspects of the user research. 
 skills: Information architecture
 year: 2019

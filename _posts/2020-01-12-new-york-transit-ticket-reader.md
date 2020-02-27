@@ -29,7 +29,7 @@ Participants didn't understand where the scanning functionality was located with
 
 ## My role ##
 
-I worked as UX Consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand their expections for the study. I then designed the study, and created all test materials. I managed a student consultant, and together we ran the study. I then reviewed session notes and participant timings, and produced a detailed report for the client.
+I worked as UX Consultant within City’s Interaction Lab, a commercial UX consultancy operating within City’s Centre for Human-Computer Interaction Design. I met with the client to learn more about the ticket barriers and understand their expectations for the study. I then designed the study, and created all test materials. I managed a student consultant, and together we ran the study. I then reviewed session notes and participant timings, and produced a detailed report for the client.
  
 ## Approach ##
 
@@ -37,9 +37,9 @@ I worked as UX Consultant within City’s Interaction Lab, a commercial UX consu
 
 The study involved multiple variables and scenarios: 
 {: .list}
-* 3 devices &ndash; a bus, new subway validator and an old subway validator
-* 3 types of tickets &ndash; 2 paper and 1 mobile app
-* 4 display screen variations
+* three devices &ndash; a bus, new subway validator and an old subway validator
+* three types of tickets &ndash; two paper and one mobile app
+* four display screen variations
 
 
 ![Ticket readers, tickets and display variations](../img/test-variables.png "Ticket readers, tickets and display variations")
@@ -57,9 +57,9 @@ We piloted the study in the client’s office. We noticed we needed a definitive
 ### Study ###
 
 
-Within the usability lab we set up the 3 different ticket validators, 1 each for the bus, subway and existing subway machine. So we didn't miss participants' intitial impressions we started with ticketing machines covered with cardboard boxes. 2 cameras captured participants' reactions and interactions as they used the machines. 
+Within the usability lab we set up the three different ticket validators, one each for the bus, subway and existing subway machine. So we didn't miss participants' initial impressions we started with ticketing machines covered with cardboard boxes. Twp cameras captured participants' reactions and interactions as they used the machines. 
 
-The first day's tests gave some results that allowed the client to iterate the device display further. Day two tested 2 further versions of the QR-code screen.  
+The first day's tests gave some results that allowed the client to iterate the device display further. Day two tested two further versions of the QR-code screen.  
 
 ![Room layout for testing the ticket reader](../img/set-up-ticket-reader.png "Room layout for testing the ticket reader")
  
@@ -73,7 +73,7 @@ As the changes to the ticket reader display did not have the desired effect, I s
 {: .list}
 
 1.	If time permits, update the physical device. Recess and inset the scanner so users can successfully validate their ticket by placing it directly on the screen. The tactile feedback would provide users with certainty and confidence, and would make learning where to place the ticket easy. 
-2.	If time doesn’t allow, change the display to increase the liklihood users position their ticket within the scanner’s range. Changes could include: 
+2.	If time doesn’t allow, change the display to increase the likelihood users positioning their ticket within the scanner’s range. Changes could include: 
    * Dividing the contactless and barcode sections of the screen (as one requires a tap and once doesn't) 
    * Using animation to communicate how and where to best scan a ticket 
    * Adding decals to the device housing to direct users towards the scanner.

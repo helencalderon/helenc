@@ -11,12 +11,8 @@ permalink: /registration-journey-redesign/
 
 # Registration process redesign #
 
-![MGP publications and website](../img/mpg-products.png "MGP products"){: .hero}
-
 {::options parse_block_html="true" /}
 <div class="metadata">
-
-Client: MGP
 
 ##### Skills #####
 * Agile project management
@@ -37,6 +33,9 @@ Client: MGP
 * Internet Explorer emulator
 
 </div>
+
+![MGP publications and website](../img/mpg-products.png "MGP products"){: .hero}
+
 
 ## Overview ##
 

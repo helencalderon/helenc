@@ -3,7 +3,7 @@ layout: post
 company: MGP 
 project: Registration process redesign
 description: Project managed the design and build of a new registration process for medical guidelines websites for healthcare professionals. Coded and deployed all analytics functionality.
-skills: Project management, web analytics
+skills: Project management, website tracking
 year: 2016
 img: /mgp-thumb.png
 permalink: /registration-journey-redesign/
@@ -11,9 +11,32 @@ permalink: /registration-journey-redesign/
 
 # Registration process redesign #
 
-Client: MGP 
-
 ![MGP publications and website](../img/mpg-products.png "MGP products"){: .hero}
+
+{::options parse_block_html="true" /}
+<div class="metadata">
+
+Client: MGP
+
+##### Skills #####
+* Agile project management
+* Gathering and defining requirements 
+* Deploying website tracking with JavaScript and Regex
+* Verbal and written communication
+* Teamwork
+* Leadership  
+* Negotiation
+
+##### Tools #####
+* Trello
+* Bizagi Modeler
+* Excel
+* Google Analytics
+* Google Tag Manager
+* Lucky Orange
+* Internet Explorer emulator
+
+</div>
 
 ## Overview ##
 

@@ -3,7 +3,7 @@ layout: post
 company: Cubic
 project: User testing a ticket reader
 description: Usability testing of prototype ticket machines for the New York Transit Authority. I designed and facilitated the study.
-skills: User testing
+skills: Moderated usability testing
 year: 2018
 permalink: /user-testing-a-public-transportation-ticket-reader/
 img: thumb-cubic.png
@@ -12,6 +12,8 @@ last_modified_at: 2020-02-22
 # User testing a public transport ticket reader #
 
 Client: Cubic
+Skills: Moderated usability testing
+
 
 ![New York City subway](../img/nycitymetro.png){: .hero}
 

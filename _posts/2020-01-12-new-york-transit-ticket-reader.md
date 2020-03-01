@@ -57,7 +57,7 @@ We piloted the study in the client’s office. We noticed we needed a definitive
 ### Study ###
 
 
-Within the usability lab we set up the three different ticket validators, one each for the bus, subway and existing subway machine. So we didn't miss participants' initial impressions we started with ticketing machines covered with cardboard boxes. Twp cameras captured participants' reactions and interactions as they used the machines. 
+Within the usability lab we set up the three different ticket validators, one each for the bus, subway and existing subway machine. So we didn't miss participants' initial impressions we started with ticketing machines covered with cardboard boxes. Two cameras captured participants' reactions and interactions as they used the machines. 
 
 The first day's tests gave some results that allowed the client to iterate the device display further. Day two tested two further versions of the QR-code screen.  
 

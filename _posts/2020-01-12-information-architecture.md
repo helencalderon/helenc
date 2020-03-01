@@ -13,7 +13,37 @@ last_modified_at: 2020-02-18
 
 # Information architecture redesign #  
 
-Client: City, University of London
+{::options parse_block_html="true" /}
+<div class="metadata">
+
+##### Skills #####
+* Content audit
+* Interviews
+* Focus groups
+* Card sorting
+* Mediation and facilitation
+* Tree tests 
+* Data analysis
+* Stakeholder management
+* Active listening
+* Verbal and written communication
+* Teamwork
+
+
+##### Tools #####
+* Google Analytics
+* Siteimprove
+* PageFreezer
+* Excel
+* Optimal Workshop
+* Camtasia
+* Video cameras
+* UserTesting.com
+* Visio
+* Omnigraffle
+
+
+</div>
 
 ![City campus](../img/city.jpg "City campus"){: .hero}
 

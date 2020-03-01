@@ -11,8 +11,23 @@ last_modified_at: 2020-02-22
 ---
 # User testing a public transport ticket reader #
 
-Client: Cubic
-Skills: Moderated usability testing
+{::options parse_block_html="true" /}
+<div class="metadata">
+
+##### Skills #####
+* Usability testing
+* Mediation and facilitation
+* Active listening
+* Observation
+* Client management
+* Verbal and written communication
+* Teamwork  
+
+##### Tools #####
+* Video cameras
+* Excel
+
+</div>
 
 
 ![New York City subway](../img/nycitymetro.png){: .hero}

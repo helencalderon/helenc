@@ -2,7 +2,6 @@
     <h1>My projects</h1>
     {% assign posts = site.posts | sort: "year" %}
     {% for post in posts reversed %}
-    {% if post.publish == no %}
     <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="card">
             <img src="{{ site.baseurl }}/img/{{ post.img }}" alt="{{ post.project }}">
@@ -14,6 +13,5 @@
             </div>
         </div>
     </a>
-    {% endif %}
     {% endfor %}
 </section>

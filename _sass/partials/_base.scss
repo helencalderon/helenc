@@ -101,7 +101,7 @@ body {
     font-family: $base-font-family;
     font-weight: 300;
     color: $text-color;
-    background-color: $blue;
+    background-color: $white;
     -webkit-text-size-adjust: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -139,6 +139,7 @@ h4,
 h5 {
     font-family: $header-font;
     text-transform: uppercase;
+    color: $green;
 }
 
 

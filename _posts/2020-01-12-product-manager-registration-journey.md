@@ -39,17 +39,17 @@ permalink: /registration-journey-redesign/
 
 ## Overview ##
 
-MGP publishes medical guidance for nurses and GPs. Visits to its websites and apps had jumped but users weren't registering and those that started the sign up process didn't finish it. The company wanted users to register so it could email them, and sell e-newsletters and advertising to its pharmaceutical clients. 
+MGP publishes articles and synopses of medical guidance for nurses and GPs. Visits to its websites and apps had jumped but users weren't registering and those that started the sign up process didn't finish it. The company wanted users to register so it could email them, and sell e-newsletters and advertising to its pharmaceutical industry clients. 
 
 ## My role ##
 
-I worked within an agile team as Product Manager. Over four months I scoped the initial project, gathered stakeholder requirements, wrote user stories and acceptance criteria and managed fortnightly builds and user acceptance testing (UAT) until the new registration flow was released across three sites and an app. So I could measure the performance of the new registration process I added more detailed analytics tracking and I coded these myself.
+I worked within an agile team as Product Manager. Over four months I scoped the initial project, gathered stakeholder requirements, wrote user stories and acceptance criteria and managed fortnightly builds and user acceptance testing (UAT) until the new registration flow was released across three sites and an app. So that I could measure the performance of the new registration process I added more detailed analytics tracking and I coded these myself.
 
 ## Approach ##
 
 ### Stakeholder requirements ###
 
-I brought together stakeholders from sales, marketing and development to review the existing registration flow which was a lengthy seven steps. We grouped fields into mandatory, nice to have, and not needed. To reduce the burden on users and increase our conversion rate I persuaded stakeholders to break up the sign up process into two stages &ndash; first a concise registration process followed by a second request for additional information. 
+I brought together internal stakeholders from sales, marketing and development teams to review the existing registration flow which was a lengthy seven steps. We grouped fields into mandatory, nice to have, and not needed. To reduce the burden on users and increase our conversion rate I persuaded stakeholders to break up the sign up process into two stages &ndash; first a concise registration process followed by a second request for additional information. 
 
 ### Backend requirements ###
 
@@ -77,11 +77,11 @@ The developers started updating the websites but we encountered a problem in the
 
 During the build phase I ran two-week sprints. Developers released the code onto site and I organised regular UAT sessions with colleagues.
 
-After two months we released the new sign-up process on one site.  We didn't carry out user testing or have a beta website, so I relied on the customer feedback we received through our tech support. From this we were able to identify two defects that were preventing users from registering. Following these bug fixes we released the new registration process on the other two websites without further issues.  
+After two months we released the new sign-up process on one site.  In an ideal world we would have user tested the development and/or released to a beta website, however neither of these options were available to us, so I relied on the customer feedback we received through our tech support. From this we were able to identify two defects that were preventing users from registering. Following these bug fixes we released the new registration process on the other two websites without further issues.  
 
 # Outcome #
 
-The number of people registering on the website increased by 300%. To compensate for the lack of user testing I added extensive tracking to the website. This allowed me to see where users were struggling. We refined the registration process further and the number of users registering jumped another 300%. This increase in sign ups helped the publisher understand who was using their sites and they were able to sell more e-newsletters and advertising to their pharmaceutical clients.
+The number of people registering on the website increased by 300%. To compensate for the lack of user testing I added extensive tracking to the website. This allowed me to see where users were struggling. We refined the registration process further and the number of users registering jumped another 300%. This increase in sign-ups helped the company understand who was using their sites and they were able to sell more e-newsletters and advertising to their pharmaceutical industry clients.
 
 ![New registrtion process and an update](../img/new-registration-screens.png "Low fidelity wireframes")
 

@@ -1,5 +1,5 @@
 <section class="projects">
-    <h1>My projects</h1>
+    <h1>Example projects</h1>
     {% assign posts = site.posts | sort: "year" %}
     {% for post in posts reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}">

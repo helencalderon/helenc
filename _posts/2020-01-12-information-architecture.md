@@ -21,7 +21,7 @@ last_modified_at: 2020-02-18
 * Interviews
 * Focus groups
 * Card sorting
-* Mediation and facilitation
+* Moderation and facilitation
 * Tree tests 
 * Data analysis
 * Stakeholder management

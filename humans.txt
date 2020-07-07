@@ -12,6 +12,7 @@ Built by: Helen Calderon
 Twitter: @helen26
 Website: www.helencalderon.co.uk
 Location: Hemel Hempstead, UK
+LinkedIn: https://www.linkedin.com/in/helencalderon/
 
 
 /* SITE */

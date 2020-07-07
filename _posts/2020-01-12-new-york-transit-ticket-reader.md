@@ -16,7 +16,7 @@ last_modified_at: 2020-02-22
 
 ##### Skills #####
 * Usability testing
-* Mediation and facilitation
+* Moderation and facilitation
 * Active listening
 * Observation
 * Client management

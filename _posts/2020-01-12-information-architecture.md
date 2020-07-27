@@ -117,7 +117,7 @@ I communicated my research and proposed structure through regular meetings with 
 
 After a year of user research, City has a new agreed information architecture for its forthcoming website. This proven structure is backed by findings from over 25 studies with 900+ participants. Users will now be able to find the information they seek, aligning with key business goals like increasing student applications and promoting research. Regular consultation with colleagues at all levels of the organisation means stakeholders are on board.
 
-The architecture has been used to built the forthcoming website and this will now be tested further during user testing. The new website is due to launch later this year.
+The architecture has been used to build the forthcoming website and this will now be tested further during user testing. The new website is due to launch later this year.
 
 ![Top-level sitemap](../img/sitemap-main.png "Top-level sitemap")
 

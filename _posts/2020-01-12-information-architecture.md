@@ -107,7 +107,7 @@ Using the labels and groupings generated from the card sorts, together with the 
 
 ![TreeJack study task results](../img/tree-2.PNG "TreeJack study task results")
  
-I conducted tree tests iteratively. Using previous study results I tested different labels and structures until research showed participants could find key information. All together I conducted 20+ tree testing studies online, 20 in-person tests and guerilla tests.
+I conducted tree tests iteratively. Using previous study results I tested different labels and structures until research showed participants could find key information. All together I conducted 20+ tree testing studies online, 20 in-person tests and guerrilla tests.
 
 ### Communicating the new information architecture ###
 

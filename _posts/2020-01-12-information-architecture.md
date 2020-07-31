@@ -82,16 +82,15 @@ Alongside this I also met with stakeholders to understand their content, hear th
 
 #### Card sorts and interviews ####
 
-Following the content audit and stakeholder interviews I conducted 40+ open card sort exercises and interviews. Participants included UK and international students, undergraduate and PhD students, researchers, business people and members of the public.
+Following the content audit and stakeholder interviews I conducted 40+ interviews and open card sort exercises. Participants included UK and international students, undergraduate and PhD students, researchers, businesspeople and members of the public.
 
-
-I selected a sample of pages from across the website and asked participants to sort these into groups and label them. Participants flagged pages they didn’t understand and identified audiences and missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
+Interviews gave me insight into users' activities and information needs. 
+For the card sorts I took a sample of pages and converted these into cards using the page title. I asked participants to sort the cards into groups and label them. Participants flagged cards they didn’t understand and identified audiences for different groupings as well as any missing content. The card sorts gave me a written artefact of users' mental models of City's content &ndash; the language they used to describe City's content and how they expected City’s content to be organised.
 
 ![Test script showing open card sort task](../img/open-card-script.PNG "Test script showing open card sort task")
 
 ![Cards sorted](../img/cards-2.png)
 
-Alongside card sorts, user interviews gave me insight into their online activities and information needs. 
 
 I was restricted to 80 cards for moderated studies, so I ran 5 online studies to understand how more pages across the site might be organised. This had the added benefit of  reducing any bias that students and staff had due to their familiarity with City’s current website. 
 
